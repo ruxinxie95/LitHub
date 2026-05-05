@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Folio — 4D Printing Research Matrix</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Source+Serif+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #2B2622; }
+  * { box-sizing: border-box; }
+  body { font-family: 'Source Serif Pro', Georgia, serif; color: #2B2622; }
+  button { font-family: inherit; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+
+<script type="text/babel" src="design-canvas.jsx"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+<script type="text/babel" src="tokens.jsx"></script>
+<script type="text/babel" src="thumbs.jsx"></script>
+<script type="text/babel" src="thumbnails.jsx"></script>
+<script type="text/babel" src="data.jsx"></script>
+<script type="text/babel" src="stars.jsx"></script>
+<script type="text/babel" src="links.jsx"></script>
+<script type="text/babel" src="filters.jsx"></script>
+<script type="text/babel" src="hub.jsx"></script>
+<script type="text/babel" src="screens.jsx"></script>
+<script type="text/babel" src="axisbuilder.jsx"></script>
+<script type="text/babel" src="extraction.jsx"></script>
+
+<script type="text/babel">
+  const { DesignCanvas, DCSection, DCArtboard, TweaksPanel, useTweaks,
+          TweakSection, TweakRadio, TweakToggle, TweakSelect, TweakColor, TweakSlider,
+          UploadModalHost, LinkPopoverHost } = window;
+
+  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+    "theme": "scientific",
+    "accentColor": "#1F5FB5",
+    "highlightColor": "#BFD7F2",
+    "showHandwriting": false,
+    "rowDensity": "comfortable",
+    "showThumbnails": true,
+    "paperTone": "white"
+  }/*EDITMODE-END*/;
+
+  const App = () => {
+    const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+
+    // Apply theme + accent overrides into the live TOKENS object on every render
+    React.useMemo(() => {
+      window.applyTheme(t.theme);
+      window.applyFonts(t.theme);
+      // accent + highlight overrides
+      window.TOKENS.accent = t.accentColor;
+      window.TOKENS.highlight = t.highlightColor;
+      // paper tone override
+      if (t.paperTone === "warm") {
+        window.TOKENS.paper = "#F4EBDC";
+        window.TOKENS.paperDeep = "#EADFCB";
+        window.TOKENS.paperLight = "#FBF6EB";
+        window.TOKENS.rule = "#C9BBA3";
+        window.TOKENS.ruleFaint = "#DCD0BB";
+      } else if (t.paperTone === "white") {
+        window.TOKENS.paper = "#FFFFFF";
+        window.TOKENS.paperDeep = "#F2F4F7";
+        window.TOKENS.paperLight = "#FFFFFF";
+      }
+      // hand fonts toggle
+      if (!t.showHandwriting) {
+        window.FONTS.hand = window.FONTS.display;
+      } else {
+        window.FONTS.hand = "'Caveat', 'Kalam', cursive";
+      }
+      return null;
+    }, [t.theme, t.accentColor, t.highlightColor, t.showHandwriting, t.paperTone]);
+
+    // Force a remount of the canvas content when tweaks change so inline styles re-evaluate
+    const key = `${t.theme}-${t.accentColor}-${t.highlightColor}-${t.showHandwriting}-${t.paperTone}-${t.rowDensity}-${t.showThumbnails}`;
+
+    return (
+      <React.Fragment>
+        <DesignCanvas
+          key={key}
+          title="Folio · 4D Printing Research Matrix"
+          subtitle="Hi-fi mockup — scientific palette. Hub, detail, AI extraction, axis builder, visualizations, ideas."
+        >
+          <DCSection id="hub" title="01 — The Hub" subtitle="Sidebar collections · matrix table · filter rail">
+            <DCArtboard id="hub-main" label="Main matrix view (1440×900)" width={1440} height={900}>
+              <HubScreen />
+            </DCArtboard>
+          </DCSection>
+          <DCSection id="detail" title="02 — Paper detail" subtitle="A single paper, with notes and links to your ideas.">
+            <DCArtboard id="detail-main" label="Paper detail (1200×900)" width={1200} height={900}>
+              <DetailScreen />
+            </DCArtboard>
+          </DCSection>
+          <DCSection id="extract" title="03 — AI extraction" subtitle="Paste an abstract or BibTeX → Claude extracts structured fields → save to library.">
+            <DCArtboard id="extract-main" label="Extraction (1200×900)" width={1200} height={900}>
+              <ExtractionScreen />
+            </DCArtboard>
+          </DCSection>
+          <DCSection id="axes" title="04 — Configure axes" subtitle="Drag fields onto rows / columns — live pivot of your real papers.">
+            <DCArtboard id="axes-main" label="Axis builder (1280×900)" width={1280} height={900}>
+              <AxisBuilderScreen />
+            </DCArtboard>
+          </DCSection>
+          <DCSection id="viz" title="05 — The shape of the field" subtitle="Heatmap · time distribution · gap map.">
+            <DCArtboard id="viz-main" label="Visualizations (1400×900)" width={1400} height={900}>
+              <VizScreen />
+            </DCArtboard>
+          </DCSection>
+          <DCSection id="ideas" title="06 — My ideas" subtitle="Working hypotheses with the papers behind each one.">
+            <DCArtboard id="ideas-main" label="Ideas panel (1100×860)" width={1100} height={860}>
+              <IdeasScreen />
+            </DCArtboard>
+          </DCSection>
+        </DesignCanvas>
+
+        <TweaksPanel title="Tweaks">
+          <TweakSection label="Theme" />
+          <TweakRadio label="Palette" value={t.theme}
+            options={["scientific", "notebook"]}
+            onChange={(v) => setTweak('theme', v)} />
+          <TweakSelect label="Paper tone" value={t.paperTone}
+            options={["cool", "warm", "white"]}
+            onChange={(v) => setTweak('paperTone', v)} />
+          <TweakColor label="Accent" value={t.accentColor}
+            onChange={(v) => setTweak('accentColor', v)} />
+          <TweakColor label="Highlight" value={t.highlightColor}
+            onChange={(v) => setTweak('highlightColor', v)} />
+
+          <TweakSection label="Type & feel" />
+          <TweakToggle label="Show handwriting accents" value={t.showHandwriting}
+            onChange={(v) => setTweak('showHandwriting', v)} />
+
+          <TweakSection label="Matrix" />
+          <TweakRadio label="Row density" value={t.rowDensity}
+            options={["compact", "comfortable", "spacious"]}
+            onChange={(v) => setTweak('rowDensity', v)} />
+          <TweakToggle label="Show thumbnails" value={t.showThumbnails}
+            onChange={(v) => setTweak('showThumbnails', v)} />
+        </TweaksPanel>
+
+        <UploadModalHost />
+        <LinkPopoverHost />
+      </React.Fragment>
+    );
+  };
+
+  ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>
