@@ -598,13 +598,12 @@ const TopBar = () => (
 const HubScreen = () => (
   <FilterProvider>
     <div style={{
-      width: 1440, height: 900,
+      width: "100%", height: "100%",
       display: "flex", flexDirection: "column",
       fontFamily: FONTS.serif,
       background: TOKENS.paper,
       color: TOKENS.ink,
       overflow: "hidden",
-      border: `1px solid ${TOKENS.rule}`,
     }}>
       <TopBar />
       <div style={{ display: "flex", flex: 1, overflow: "hidden" }}>

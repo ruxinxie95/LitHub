@@ -38,11 +38,10 @@ const DetailScreen = () => {
 
   return (
     <div style={{
-      width: 1200, height: 900,
+      width: "100%", height: "100%",
       display: "flex", flexDirection: "column",
       background: TOKENS.paper,
       fontFamily: FONTS.serif,
-      border: `1px solid ${TOKENS.rule}`,
       overflow: "hidden",
     }}>
       {/* Header */}
@@ -229,10 +228,9 @@ const DetailScreen = () => {
 const ExtractionScreen = () => {
   return (
     <div style={{
-      width: 1200, height: 900,
+      width: "100%", height: "100%",
       background: TOKENS.paper,
       fontFamily: FONTS.serif,
-      border: `1px solid ${TOKENS.rule}`,
       overflow: "hidden",
       display: "flex", flexDirection: "column",
     }}>
@@ -402,10 +400,9 @@ const AxisBuilderScreen = () => {
 
   return (
     <div style={{
-      width: 1200, height: 900,
+      width: "100%", height: "100%",
       background: TOKENS.paper,
       fontFamily: FONTS.serif,
-      border: `1px solid ${TOKENS.rule}`,
       overflow: "hidden",
       display: "flex", flexDirection: "column",
     }}>
@@ -575,10 +572,9 @@ const PreviewMatrix = () => (
 // === VISUALIZATIONS SCREEN ===
 const VizScreen = () => (
   <div style={{
-    width: 1400, height: 900,
+    width: "100%", height: "100%",
     background: TOKENS.paper,
     fontFamily: FONTS.serif,
-    border: `1px solid ${TOKENS.rule}`,
     overflow: "hidden",
     display: "flex", flexDirection: "column",
   }}>
@@ -777,10 +773,9 @@ const GapMap = () => (
 // === MY IDEAS PANEL ===
 const IdeasScreen = () => (
   <div style={{
-    width: 1100, height: 860,
+    width: "100%", height: "100%",
     background: TOKENS.paper,
     fontFamily: FONTS.serif,
-    border: `1px solid ${TOKENS.rule}`,
     overflow: "hidden",
     display: "flex", flexDirection: "column",
   }}>

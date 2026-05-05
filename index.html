@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Folio — 4D Printing Research Matrix</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Source+Serif+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Inter:wght@400;500;600&family=Source+Serif+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
-  html, body { margin: 0; padding: 0; background: #2B2622; }
-  * { box-sizing: border-box; }
-  body { font-family: 'Source Serif Pro', Georgia, serif; color: #2B2622; }
-  button { font-family: inherit; }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body, #root { height: 100%; }
+  body { font-family: 'Source Serif Pro', Georgia, serif; color: #1A2230; overflow: hidden; }
+  button { font-family: inherit; cursor: pointer; }
+  input, textarea { font-family: inherit; }
 </style>
 </head>
 <body>
@@ -20,8 +22,6 @@
 <script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
 
-<script type="text/babel" src="design-canvas.jsx"></script>
-<script type="text/babel" src="tweaks-panel.jsx"></script>
 <script type="text/babel" src="tokens.jsx"></script>
 <script type="text/babel" src="thumbs.jsx"></script>
 <script type="text/babel" src="thumbnails.jsx"></script>
@@ -35,121 +35,231 @@
 <script type="text/babel" src="extraction.jsx"></script>
 
 <script type="text/babel">
-  const { DesignCanvas, DCSection, DCArtboard, TweaksPanel, useTweaks,
-          TweakSection, TweakRadio, TweakToggle, TweakSelect, TweakColor, TweakSlider,
-          UploadModalHost, LinkPopoverHost } = window;
 
-  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
-    "theme": "scientific",
-    "accentColor": "#1F5FB5",
-    "highlightColor": "#BFD7F2",
-    "showHandwriting": false,
-    "rowDensity": "comfortable",
-    "showThumbnails": true,
-    "paperTone": "white"
-  }/*EDITMODE-END*/;
+  // ── Theme bootstrap (scientific palette defaults) ───────────────────────
+  window.applyTheme("scientific");
+  window.applyFonts("scientific");
+  window.TOKENS.paper      = "#FFFFFF";
+  window.TOKENS.paperDeep  = "#F2F4F7";
+  window.TOKENS.paperLight = "#FFFFFF";
 
-  const App = () => {
-    const [t, setTweak] = useTweaks(TWEAK_DEFAULTS);
+  // ── Nav items ───────────────────────────────────────────────────────────
+  const NAV_ITEMS = [
+    { id: "hub",      label: "Matrix",       icon: "⊞" },
+    { id: "detail",   label: "Paper detail", icon: "◉" },
+    { id: "extract",  label: "AI extract",   icon: "✦" },
+    { id: "axes",     label: "Pivot",        icon: "⊟" },
+    { id: "viz",      label: "Visualize",    icon: "◔" },
+    { id: "ideas",    label: "My ideas",     icon: "✎" },
+  ];
 
-    // Apply theme + accent overrides into the live TOKENS object on every render
-    React.useMemo(() => {
-      window.applyTheme(t.theme);
-      window.applyFonts(t.theme);
-      // accent + highlight overrides
-      window.TOKENS.accent = t.accentColor;
-      window.TOKENS.highlight = t.highlightColor;
-      // paper tone override
-      if (t.paperTone === "warm") {
-        window.TOKENS.paper = "#F4EBDC";
-        window.TOKENS.paperDeep = "#EADFCB";
-        window.TOKENS.paperLight = "#FBF6EB";
-        window.TOKENS.rule = "#C9BBA3";
-        window.TOKENS.ruleFaint = "#DCD0BB";
-      } else if (t.paperTone === "white") {
-        window.TOKENS.paper = "#FFFFFF";
-        window.TOKENS.paperDeep = "#F2F4F7";
+  // ── Settings panel ──────────────────────────────────────────────────────
+  const SettingsPanel = ({ open, onClose }) => {
+    const [theme,        setTheme]        = React.useState("scientific");
+    const [accentColor,  setAccentColor]  = React.useState("#1F5FB5");
+    const [paperTone,    setPaperTone]    = React.useState("white");
+    const [handwriting,  setHandwriting]  = React.useState(false);
+
+    const apply = () => {
+      window.applyTheme(theme);
+      window.applyFonts(theme);
+      window.TOKENS.accent = accentColor;
+      if (paperTone === "warm") {
+        window.TOKENS.paper = "#F4EBDC"; window.TOKENS.paperDeep = "#EADFCB";
+        window.TOKENS.paperLight = "#FBF6EB"; window.TOKENS.rule = "#C9BBA3";
+      } else if (paperTone === "white") {
+        window.TOKENS.paper = "#FFFFFF"; window.TOKENS.paperDeep = "#F2F4F7";
         window.TOKENS.paperLight = "#FFFFFF";
-      }
-      // hand fonts toggle
-      if (!t.showHandwriting) {
-        window.FONTS.hand = window.FONTS.display;
       } else {
-        window.FONTS.hand = "'Caveat', 'Kalam', cursive";
+        window.TOKENS.paper = "#F2F4F7"; window.TOKENS.paperDeep = "#E6EAF0";
+        window.TOKENS.paperLight = "#FAFBFD";
       }
-      return null;
-    }, [t.theme, t.accentColor, t.highlightColor, t.showHandwriting, t.paperTone]);
+      window.FONTS.hand = handwriting ? "'Caveat', cursive" : window.FONTS.display;
+      // Trigger a re-render everywhere by notifying stars listeners
+      if (window.__starsListeners) window.__starsListeners.forEach(fn => fn());
+      onClose();
+    };
 
-    // Force a remount of the canvas content when tweaks change so inline styles re-evaluate
-    const key = `${t.theme}-${t.accentColor}-${t.highlightColor}-${t.showHandwriting}-${t.paperTone}-${t.rowDensity}-${t.showThumbnails}`;
-
+    if (!open) return null;
+    const T = window.TOKENS; const F = window.FONTS;
+    const row = { display: "flex", alignItems: "center", justifyContent: "space-between", padding: "10px 0", borderBottom: `1px solid ${T.ruleFaint}` };
+    const label = { fontFamily: F.mono, fontSize: 10, letterSpacing: 1.2, color: T.inkFaint, textTransform: "uppercase" };
     return (
       <React.Fragment>
-        <DesignCanvas
-          key={key}
-          title="Folio · 4D Printing Research Matrix"
-          subtitle="Hi-fi mockup — scientific palette. Hub, detail, AI extraction, axis builder, visualizations, ideas."
-        >
-          <DCSection id="hub" title="01 — The Hub" subtitle="Sidebar collections · matrix table · filter rail">
-            <DCArtboard id="hub-main" label="Main matrix view (1440×900)" width={1440} height={900}>
-              <HubScreen />
-            </DCArtboard>
-          </DCSection>
-          <DCSection id="detail" title="02 — Paper detail" subtitle="A single paper, with notes and links to your ideas.">
-            <DCArtboard id="detail-main" label="Paper detail (1200×900)" width={1200} height={900}>
-              <DetailScreen />
-            </DCArtboard>
-          </DCSection>
-          <DCSection id="extract" title="03 — AI extraction" subtitle="Paste an abstract or BibTeX → Claude extracts structured fields → save to library.">
-            <DCArtboard id="extract-main" label="Extraction (1200×900)" width={1200} height={900}>
-              <ExtractionScreen />
-            </DCArtboard>
-          </DCSection>
-          <DCSection id="axes" title="04 — Configure axes" subtitle="Drag fields onto rows / columns — live pivot of your real papers.">
-            <DCArtboard id="axes-main" label="Axis builder (1280×900)" width={1280} height={900}>
-              <AxisBuilderScreen />
-            </DCArtboard>
-          </DCSection>
-          <DCSection id="viz" title="05 — The shape of the field" subtitle="Heatmap · time distribution · gap map.">
-            <DCArtboard id="viz-main" label="Visualizations (1400×900)" width={1400} height={900}>
-              <VizScreen />
-            </DCArtboard>
-          </DCSection>
-          <DCSection id="ideas" title="06 — My ideas" subtitle="Working hypotheses with the papers behind each one.">
-            <DCArtboard id="ideas-main" label="Ideas panel (1100×860)" width={1100} height={860}>
-              <IdeasScreen />
-            </DCArtboard>
-          </DCSection>
-        </DesignCanvas>
+        <div onClick={onClose} style={{ position:"fixed", inset:0, zIndex:200, background:"rgba(20,30,50,0.25)" }} />
+        <div style={{
+          position:"fixed", top:48, right:16, zIndex:201, width:280,
+          background: T.paperLight, border:`1px solid ${T.rule}`,
+          boxShadow:"0 8px 32px rgba(20,30,50,0.15)",
+          fontFamily: F.serif,
+        }}>
+          <div style={{ padding:"14px 18px", borderBottom:`1px solid ${T.rule}`, fontFamily:F.display, fontSize:14, fontWeight:600, color:T.ink }}>
+            Appearance
+          </div>
+          <div style={{ padding:"4px 18px 16px" }}>
+            <div style={row}>
+              <span style={label}>Palette</span>
+              <div style={{ display:"flex", gap:6 }}>
+                {["scientific","notebook"].map(v => (
+                  <button key={v} onClick={() => setTheme(v)} style={{
+                    fontFamily:F.serif, fontSize:12, padding:"3px 10px",
+                    background: theme===v ? T.accent : "transparent",
+                    color: theme===v ? T.paperLight : T.inkSoft,
+                    border:`1px solid ${theme===v ? T.accent : T.rule}`, borderRadius:2,
+                  }}>{v}</button>
+                ))}
+              </div>
+            </div>
+            <div style={row}>
+              <span style={label}>Paper tone</span>
+              <div style={{ display:"flex", gap:6 }}>
+                {["white","cool","warm"].map(v => (
+                  <button key={v} onClick={() => setPaperTone(v)} style={{
+                    fontFamily:F.serif, fontSize:12, padding:"3px 10px",
+                    background: paperTone===v ? T.accent : "transparent",
+                    color: paperTone===v ? T.paperLight : T.inkSoft,
+                    border:`1px solid ${paperTone===v ? T.accent : T.rule}`, borderRadius:2,
+                  }}>{v}</button>
+                ))}
+              </div>
+            </div>
+            <div style={row}>
+              <span style={label}>Accent colour</span>
+              <input type="color" value={accentColor} onChange={e => setAccentColor(e.target.value)}
+                style={{ width:36, height:24, border:`1px solid ${T.rule}`, borderRadius:2, cursor:"pointer", background:"none" }} />
+            </div>
+            <div style={{ ...row, border:"none" }}>
+              <span style={label}>Handwriting</span>
+              <button onClick={() => setHandwriting(v => !v)} style={{
+                fontFamily:F.serif, fontSize:12, padding:"3px 10px",
+                background: handwriting ? T.accent : "transparent",
+                color: handwriting ? T.paperLight : T.inkSoft,
+                border:`1px solid ${handwriting ? T.accent : T.rule}`, borderRadius:2,
+              }}>{handwriting ? "on" : "off"}</button>
+            </div>
+          </div>
+          <div style={{ padding:"10px 18px", borderTop:`1px solid ${T.rule}`, display:"flex", justifyContent:"flex-end", gap:8 }}>
+            <button onClick={onClose} style={{ fontFamily:F.serif, fontSize:12, color:T.inkSoft, background:"transparent", border:`1px solid ${T.rule}`, borderRadius:2, padding:"6px 14px" }}>Cancel</button>
+            <button onClick={apply} style={{ fontFamily:F.serif, fontSize:12, fontWeight:500, color:T.paperLight, background:T.accent, border:"none", borderRadius:2, padding:"6px 16px" }}>Apply</button>
+          </div>
+        </div>
+      </React.Fragment>
+    );
+  };
 
-        <TweaksPanel title="Tweaks">
-          <TweakSection label="Theme" />
-          <TweakRadio label="Palette" value={t.theme}
-            options={["scientific", "notebook"]}
-            onChange={(v) => setTweak('theme', v)} />
-          <TweakSelect label="Paper tone" value={t.paperTone}
-            options={["cool", "warm", "white"]}
-            onChange={(v) => setTweak('paperTone', v)} />
-          <TweakColor label="Accent" value={t.accentColor}
-            onChange={(v) => setTweak('accentColor', v)} />
-          <TweakColor label="Highlight" value={t.highlightColor}
-            onChange={(v) => setTweak('highlightColor', v)} />
+  // ── App ─────────────────────────────────────────────────────────────────
+  const App = () => {
+    const [screen, setScreen]   = React.useState("hub");
+    const [settings, setSettings] = React.useState(false);
+    const T = window.TOKENS; const F = window.FONTS;
+    const NAV_H = 48;
 
-          <TweakSection label="Type & feel" />
-          <TweakToggle label="Show handwriting accents" value={t.showHandwriting}
-            onChange={(v) => setTweak('showHandwriting', v)} />
+    // When detail screen opens, navigate there on row click
+    React.useEffect(() => {
+      const orig = window.setSelected;
+      window.setSelected = (id) => {
+        orig && orig(id);
+        setScreen("detail");
+      };
+    }, []);
 
-          <TweakSection label="Matrix" />
-          <TweakRadio label="Row density" value={t.rowDensity}
-            options={["compact", "comfortable", "spacious"]}
-            onChange={(v) => setTweak('rowDensity', v)} />
-          <TweakToggle label="Show thumbnails" value={t.showThumbnails}
-            onChange={(v) => setTweak('showThumbnails', v)} />
-        </TweaksPanel>
+    const SCREENS = {
+      hub:     <HubScreen />,
+      detail:  <DetailScreen />,
+      extract: <ExtractionScreen />,
+      axes:    <AxisBuilderScreen />,
+      viz:     <VizScreen />,
+      ideas:   <IdeasScreen />,
+    };
+
+    return (
+      <div style={{ display:"flex", flexDirection:"column", height:"100vh", background: T.paperDeep }}>
+
+        {/* ── Top nav bar ── */}
+        <div style={{
+          height: NAV_H, flexShrink: 0,
+          background: T.paper,
+          borderBottom: `1px solid ${T.rule}`,
+          display: "flex", alignItems: "center",
+          boxShadow: "0 1px 3px rgba(20,30,50,0.07)",
+          position: "relative", zIndex: 10,
+        }}>
+          {/* Logo */}
+          <div style={{ padding:"0 20px 0 24px", display:"flex", alignItems:"center", gap:8 }}>
+            <div style={{ fontFamily:F.display, fontSize:19, fontWeight:700, color:T.ink, letterSpacing:-0.5, lineHeight:1 }}>
+              Folio
+            </div>
+            <div style={{ fontFamily:F.serif, fontSize:10, fontStyle:"italic", color:T.inkFaint, lineHeight:1 }}>
+              4D research
+            </div>
+          </div>
+
+          {/* Divider */}
+          <div style={{ width:1, height:20, background:T.rule, marginRight:8 }} />
+
+          {/* Nav tabs */}
+          <div style={{ display:"flex", alignItems:"stretch", height:"100%", gap:0 }}>
+            {NAV_ITEMS.map(item => {
+              const active = screen === item.id;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => setScreen(item.id)}
+                  style={{
+                    height:"100%", padding:"0 16px",
+                    background: active ? T.paperDeep : "transparent",
+                    color: active ? T.accent : T.inkSoft,
+                    border:"none",
+                    borderBottom: `2px solid ${active ? T.accent : "transparent"}`,
+                    fontFamily: F.serif, fontSize:13,
+                    display:"flex", alignItems:"center", gap:6,
+                    transition:"color 0.12s, border-color 0.12s, background 0.12s",
+                    whiteSpace:"nowrap",
+                  }}
+                  onMouseEnter={e => { if (!active) { e.currentTarget.style.background = T.paperDeep; e.currentTarget.style.color = T.ink; }}}
+                  onMouseLeave={e => { if (!active) { e.currentTarget.style.background = "transparent"; e.currentTarget.style.color = T.inkSoft; }}}
+                >
+                  <span style={{ fontSize:11, opacity:0.7 }}>{item.icon}</span>
+                  {item.label}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Right side */}
+          <div style={{ flex:1 }} />
+          <div style={{ display:"flex", alignItems:"center", gap:8, paddingRight:20 }}>
+            <span style={{ fontFamily:F.mono, fontSize:10, color:T.inkFaint }}>
+              {(window.PAPERS||[]).length} papers
+            </span>
+            <button
+              onClick={() => setSettings(v => !v)}
+              style={{
+                fontFamily:F.serif, fontSize:12,
+                color: settings ? T.accent : T.inkSoft,
+                background: settings ? `rgba(31,95,181,0.08)` : "transparent",
+                border:`1px solid ${settings ? T.accent : T.rule}`,
+                borderRadius:2, padding:"5px 12px",
+              }}>
+              ⚙ Settings
+            </button>
+          </div>
+        </div>
+
+        {/* ── Settings panel ── */}
+        <SettingsPanel open={settings} onClose={() => setSettings(false)} />
+
+        {/* ── Screen area ── */}
+        <div style={{
+          flex:1, overflow:"auto",
+          display:"flex", flexDirection:"column",
+        }}>
+          {SCREENS[screen]}
+        </div>
 
         <UploadModalHost />
         <LinkPopoverHost />
-      </React.Fragment>
+      </div>
     );
   };
 

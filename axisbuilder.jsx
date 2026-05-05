@@ -478,9 +478,9 @@ const AxisBuilderScreen = () => {
 
   return (
     <div style={{
-      width: 1280, height: 900,
+      width: "100%", height: "100%",
       background: TOKENS.paper, fontFamily: FONTS.serif,
-      border: `1px solid ${TOKENS.rule}`, overflow: "hidden",
+      overflow: "hidden",
       display: "flex", flexDirection: "column",
       position: "relative",
     }}>
