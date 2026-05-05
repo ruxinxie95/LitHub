@@ -1,0 +1,61 @@
+{
+  "totalEntries": 75,
+  "afterDedup": 72,
+  "duplicatesRemoved": 3,
+  "inScope": 60,
+  "outScope": 12,
+  "withDoi": 65,
+  "inScopeWithDoi": 55,
+  "classification": {
+    "is4DPrinting": 19,
+    "bistable": 25,
+    "origami_kirigami": 7
+  },
+  "byYear": {
+    "2006": 1,
+    "2015": 4,
+    "2016": 2,
+    "2017": 1,
+    "2018": 5,
+    "2019": 2,
+    "2020": 5,
+    "2021": 5,
+    "2022": 4,
+    "2023": 10,
+    "2024": 8,
+    "2025": 4,
+    "2026": 3
+  },
+  "byStimulus": {
+    "mechanical": 10,
+    "humidity/water": 22,
+    "heat": 8,
+    "light": 4,
+    "pneumatic": 1,
+    "pH": 1
+  },
+  "byMaterial": {
+    "cellulose-based composite": 3,
+    "wood veneer/fiber": 2,
+    "cellulose-based composite / ABS": 1,
+    "wood-polymer composite (WPC) / cellulose-based composite": 1,
+    "hydrogel": 1,
+    "cellulose-based composite / PLA": 1,
+    "wood-polymer composite (WPC) / ABS": 1,
+    "shape memory polymer (SMP)": 1,
+    "PLA": 2,
+    "shape memory alloy (SMA)": 1,
+    "natural fiber biocomposite": 1,
+    "wood-polymer composite (WPC)": 1,
+    "PLA / TPC": 1,
+    "cellulose-based composite / natural fiber biocomposite": 1,
+    "carbon fiber composite": 1
+  },
+  "byFabrication": {
+    "3D/4D printing (process unspecified)": 12,
+    "extrusion-based 3D printing": 3,
+    "multimaterial 3D printing": 1,
+    "additive manufacturing (general)": 6,
+    "FDM/FFF": 6
+  }
+}

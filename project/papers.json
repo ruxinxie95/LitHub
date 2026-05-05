@@ -1,0 +1,2582 @@
+[
+  {
+    "key": "aktasModelingFrameworkJamming2021",
+    "type": "article",
+    "title": "A Modeling Framework for Jamming Structures",
+    "authors": [
+      "Buse Akta\\c s",
+      "Yashraj S. Narang",
+      "Nikolaos Vasios",
+      "Katia Bertoldi",
+      "Robert D. Howe"
+    ],
+    "year": 2021,
+    "venue": "Advanced Functional Materials",
+    "volume": "31",
+    "pages": "2007554",
+    "doi": "10.1002/adfm.202007554",
+    "url": "https://doi.org/10.1002/adfm.202007554",
+    "abstract": "Abstract Jamming is a structural phenomenon that provides tunable mechanical behavior. A jamming structure typically consists of a collection of elements with low effective stiffness and damping. When a pressure gradient, such as vacuum, is applied, kinematic and frictional coupling increase, resulting in dramatically altered mechanical properties. Engineers have used jamming to build devices from tunable-stiffness grippers to tunable-damping landing gear. This study presents a rigorous framework that systematically guides the design of jamming structures for target applications. The force-deflection behavior of major types of jamming structures (i.e., grain, fiber, and layer) in fundamental loading conditions (e.g., tension, shear, and bending) is compared. High-performing pairs (e.g., grains in compression, layers in shear, and bending) are identified. Parameters that go into designing, fabricating, and actuating a jamming structure (e.g., scale, material, geometry, and actuator) are described, along with their effects on functional metrics. Two key methods to expand on the design space of jamming structures are introduced: using structural design to achieve effective tunable-impedance behavior in specific loading directions, and creating hybrid jamming structures to utilize the advantages of different types of jamming. Collectively, this study elaborates and extends the jamming design space, providing a conceptual modeling framework for jamming-based structures.",
+    "keywords": [],
+    "inScope": false,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": null
+  },
+  {
+    "key": "albertiniMechanicalBehaviorEmbedded2024",
+    "type": "article",
+    "title": "Mechanical Behavior of Embedded Bistable Dome Shell with Tunable Energy Barrier Asymmetry",
+    "authors": [
+      "Frederic Albertini",
+      "M. Gabriella Tarantino",
+      "Laurent Daniel"
+    ],
+    "year": 2024,
+    "venue": "International Journal of Mechanical Sciences",
+    "volume": "263",
+    "pages": "108762",
+    "doi": "10.1016/j.ijmecsci.2023.108762",
+    "url": "https://doi.org/10.1016/j.ijmecsci.2023.108762",
+    "abstract": "In this work, the mechanical response at finite strains of embedded dome shells is investigated both numerically and experimentally. These systems are interesting as they exhibit up to two stable shapes, a feature that makes them promising candidates for numerous applications from energy harvesting to shape morphing. The energy landscape scenario of these structures presents a major peculiarity as the strain energy required to switch the system between its stable shapes is path-dependent and varies upon loading (i.e. snap-through instability) and unloading (i.e. snap-back instability). This paper proposes to investigate their asymmetrical mechanical behavior. To do so, Finite Element computations were first carried out onto dome shell models, where the geometrical parameters were varied systematically. Specifically, two sets of computations were conducted using the Static Damping Method. The first served to identify the mono- and bistable domains of the embedded dome shells as function of the dome main geometrical parameters. The second focused on bistable dome geometries and explored systematically the asymmetry in the energy barrier required to switch between the two equilibrium states. Interestingly, the results of this study showed that a simple asymmetry indicator could be used to effectively qualify the dome asymmetric bistability, in turn providing simple guidelines for the design of morphing structures with programmable response. Finally, in order to validate the numerical results, the mechanical response of the 3D-printed rubber-like dome shells was measured experimentally using a dedicated set-up that was designed and fabricated to this purpose. The results of experiments were found to be in good agreement with those of simulations.",
+    "keywords": [
+      "/unread"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "bhattExpandingCapabilitiesAdditive2020",
+    "type": "article",
+    "title": "Expanding Capabilities of Additive Manufacturing through Use of Robotics Technologies: A Survey",
+    "authors": [
+      "Prahar M. Bhatt",
+      "Rishi K. Malhan",
+      "Aniruddha V. Shembekar",
+      "Yeo Jung Yoon",
+      "Satyandra K. Gupta"
+    ],
+    "year": 2020,
+    "venue": "Additive Manufacturing",
+    "volume": "31",
+    "pages": "100933",
+    "doi": "10.1016/j.addma.2019.100933",
+    "url": "https://doi.org/10.1016/j.addma.2019.100933",
+    "abstract": "Robots are versatile machines that can perform complex manipulation operations. Recent advances in industrial robotics make robots useful in a wide variety of manufacturing processes. Several recent e↵orts have demonstrated how robots can be used in additive manufacturing (AM) processes. This paper surveys the work focused on expanding the functional capabilities of AM processes using robots. We identify the following main capabilities realized by performing AM using robots: (1) multi-directional fabrication, (2) conformal deposition, (3) assembling prefabricated components in AM, (4) supportless AM, and (5) largescale AM. We classify the recent literature in this area in terms of mechanisms, kinematic degrees of freedom (DOF) of the system, types of AM process, and materials. Finally, we discuss the limitations of the current work and the opportunities for future research in this area.",
+    "keywords": [],
+    "inScope": false,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": null
+  },
+  {
+    "key": "BistableHingeCaps",
+    "type": "misc",
+    "title": "About Bistable Hinge Caps",
+    "authors": [],
+    "year": null,
+    "venue": "Nature Architects",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "url": "",
+    "abstract": "Introduction I'm sure that readers of this article are familiar with storing and releasing elastic energy in hinge caps on a daily basis. A hinge cap that has bistability can be in either the open or closed state.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "browneHarnessingElasticInstabilities2024",
+    "type": "article",
+    "title": "Harnessing Elastic Instabilities for Enhanced Mixing and Reaction Kinetics in Porous Media",
+    "authors": [
+      "Christopher A. Browne",
+      "Sujit S. Datta"
+    ],
+    "year": 2024,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "volume": "121",
+    "pages": "e2320962121",
+    "doi": "10.1073/pnas.2320962121",
+    "url": "https://doi.org/10.1073/pnas.2320962121",
+    "abstract": "Turbulent flows have been used for millennia to mix solutes; a familiar example is stirring cream into coffee. However, many energy, environmental, and industrial processes rely on the mixing of solutes in porous media where confinement suppresses inertial turbulence. As a result, mixing is drastically hindered, requiring fluid to permeate long distances for appreciable mixing and introducing additional steps to drive mixing that can be expensive and environmentally harmful. Here, we demonstrate that this limitation can be overcome just by adding dilute amounts of flexible polymers to the fluid. Flow-driven stretching of the polymers generates an elastic instability, driving turbulent-like chaotic flow fluctuations, despite the pore-scale confinement that prohibits typical inertial turbulence. Using in situ imaging, we show that these fluctuations stretch and fold the fluid within the pores along thin layers (``lamellae'') characterized by sharp solute concentration gradients, driving mixing by diffusion in the pores. This process results in a 3 × reduction in the required mixing length, a 6 × increase in solute transverse dispersivity, and can be harnessed to increase the rate at which chemical compounds react by 5 × ---enhancements that we rationalize using turbulence-inspired modeling of the underlying transport processes. Our work thereby establishes a simple, robust, versatile, and predictive way to mix solutes in porous media, with potential applications ranging from large-scale chemical production to environmental remediation.",
+    "keywords": [],
+    "inScope": false,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": null
+  },
+  {
+    "key": "charpentierKinematicAmplificationStrategies2017",
+    "type": "article",
+    "title": "Kinematic Amplification Strategies in Plants and Engineering",
+    "authors": [
+      "Victor Charpentier",
+      "Philippe Hannequart",
+      "Sigrid Adriaenssens",
+      "Olivier Baverel",
+      "Emmanuel Viglino",
+      "Sasha Eisenman"
+    ],
+    "year": 2017,
+    "venue": "Smart Materials and Structures",
+    "volume": "26",
+    "pages": "063002",
+    "doi": "10.1088/1361-665X/aa640f",
+    "url": "https://doi.org/10.1088/1361-665X/aa640f",
+    "abstract": "While plants are primarily sessile at the organismal level, they do exhibit a vast array of movements at the organ or sub-organ level. These movements can occur for reasons as diverse as seed dispersal, nutrition, protection or pollination. Their advanced mechanisms generate a myriad of movement typologies, many of which are not fully understood. In recent years, there has been a renewal of interest in understanding the mechanical behavior of plants from an engineering perspective, with an interest in developing novel applications by up-sizing these mechanisms from the micro- to the macro-scale. This literature review identifies the main strategies used by plants to create and amplify movements and anatomize the most recent mechanical understanding of compliant engineering mechanics. The paper ultimately demonstrates that plant movements, rooted in compliance and multi-functionality, can effectively inspire better kinematic/adaptive structures and materials. In plants, the actuators and the deployment structures are fused into a single system. The understanding of those natural movements therefore starts with an exploration of mechanisms at the origins of movements. Plant movements, whether slow or fast, active or passive, reversible or irreversible, are presented and detailed for their mechanical significance. With a focus on displacement amplification, the most recent promising strategies for actuation and adaptive systems are examined with respect to the mechanical principles of shape morphing plant tissues.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "chenFastReversibleBistable2022",
+    "type": "inproceedings",
+    "title": "Fast and Reversible Bistable Hygroscopic Actuators for Architectural Applications Based on Plant Movement Strategies",
+    "authors": [
+      "Emily Chen",
+      "Glenn Lu",
+      "Lyric Barnik",
+      "David Correa"
+    ],
+    "year": 2022,
+    "venue": "eCAADe 2022: Co-creating the Future - Inclusion in and through Design",
+    "volume": "",
+    "pages": "261--270",
+    "doi": "10.52842/conf.ecaade.2022.1.261",
+    "url": "https://doi.org/10.52842/conf.ecaade.2022.1.261",
+    "abstract": "",
+    "keywords": [
+      "/important"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "chengBioInspiredMotionMechanisms2021",
+    "type": "article",
+    "title": "Bio-Inspired Motion Mechanisms: Computational Design and Material Programming of Self-Adjusting 4D-Printed Wearable Systems",
+    "authors": [
+      "Tiffany Cheng",
+      "Marc Thielen",
+      "Simon Poppinga",
+      "Yasaman Tahouni",
+      "Dylan Wood",
+      "Thorsten Steinberg",
+      "Achim Menges",
+      "Thomas Speck"
+    ],
+    "year": 2021,
+    "venue": "Advanced Science",
+    "volume": "8",
+    "pages": "2100411",
+    "doi": "10.1002/advs.202100411",
+    "url": "https://doi.org/10.1002/advs.202100411",
+    "abstract": "This paper presents a material programming approach for designing 4D-printed self-shaping material systems based on biological role models. Plants have inspired numerous adaptive systems that move without using any operating energy; however, these systems are typically designed and fabricated in the form of simplified bilayers. This work introduces computational design methods for 4D-printing bio-inspired behaviors with compounded mechanisms. To emulate the anisotropic arrangement of motile plant structures, material systems are tailored at the mesoscale using extrusion-based 3D-printing. The methodology is demonstrated by transferring the principle of force generation by a twining plant (Dioscorea bulbifera) to the application of a self-tightening splint. Through the tensioning of its stem helix, D. bulbifera exhibits a squeezing force on its support to provide stability against gravity. The functional strategies of D. bulbifera are abstracted and translated to customized 4D-printed material systems. The squeezing forces of these bio-inspired motion mechanisms are then evaluated. Finally, the function of self-tightening is prototyped in a wrist-forearm splint---a common orthotic device for alignment. The presented approach enables the transfer of novel and expanded biomimetic design strategies to 4D-printed motion mechanisms, further opening the design space to new types of adaptive creations for wearable assistive technologies and beyond.",
+    "keywords": [
+      "adaptive structures",
+      "additive manufacturing",
+      "biomimetics",
+      "digital fabrication",
+      "material computation",
+      "self-shaping material systems"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "extrusion-based 3D printing",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "chengMultifunctionalMesostructuresDesign2020",
+    "type": "inproceedings",
+    "title": "Multifunctional Mesostructures: Design and Material Programming for 4D-printing",
+    "authors": [
+      "Tiffany Cheng",
+      "Yasaman Tahouni",
+      "Dylan Wood",
+      "Benjamin Stolz",
+      "Rolf Mülhaupt",
+      "Achim Menges"
+    ],
+    "year": 2020,
+    "venue": "Proceedings of the 5th Annual ACM Symposium on Computational Fabrication",
+    "volume": "",
+    "pages": "1--10",
+    "doi": "10.1145/3424630.3425418",
+    "url": "https://doi.org/10.1145/3424630.3425418",
+    "abstract": "Natural materials, such as in plant and bone organs, adapt to their surroundings with functionally graded underlying structures. Advances in extrusion-based 4D-printing have enabled the manufacture of bio-inspired systems with varying properties and self-shaping behaviors. However, tailoring the internal composition of such systems relies on specialized knowledge, as most computer-aided design (CAD) applications are based on a modeling paradigm that considers objects as surfaces or solids with no geometrical definition of the interior structure. We propose that engineered materials with differentiated and heterogeneous mesostructures can achieve nature-inspired functionality. We present a design approach for tailoring the internal topology of 4D-printed material systems, using intuitive geometric descriptions from existing CAD workflows. We introduce a material programming framework for assigning and tuning material properties such as elasticity and shape change with varying magnitudes and anisotropies throughout a volume. Our method translates the desired properties into an assembly of functional patterns for fabrication via anisotropic material deposition. To demonstrate this framework, we show several types of material behaviors, including self-shaping double curvature and embedded passive cooling. Finally, we produce a prototype of a wearable assistive device that highlights the integration of multiple functions. Through design and material programming, the resulting 4D-printed material systems underline how nature-inspired mesostructured material networks can be physically encoded with custom-designed behaviors, shape changes, and functionalities.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "extrusion-based 3D printing",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "chengProgrammingMaterialCompliance2021",
+    "type": "article",
+    "title": "Programming Material Compliance and Actuation: Hybrid Additive Fabrication of Biocomposite Structures for Large-Scale Self-Shaping",
+    "authors": [
+      "Tiffany Cheng",
+      "Dylan Wood",
+      "Laura Kiesewetter",
+      "Eda Özdemir",
+      "Karen Antorveza",
+      "Achim Menges"
+    ],
+    "year": 2021,
+    "venue": "Bioinspiration & Biomimetics",
+    "volume": "16",
+    "pages": "055004",
+    "doi": "10.1088/1748-3190/ac10af",
+    "url": "https://doi.org/10.1088/1748-3190/ac10af",
+    "abstract": "We present a hybrid approach to manufacturing a new class of large-scale self-shaping structures through a method of additive fabrication combining fused granular fabrication (FGF) and integrated hygroscopic wood actuators (HWAs). Wood materials naturally change shape with high forces in response to moisture stimuli. The strength and simplicity of this actuation make the material suitable for self-shaping architectural-scale components. However, the anisotropic composition of wood, which enables this inherent behavior, cannot be fully customized within existing stock. On the other hand, FGF allows for the design of large physical parts with multi-functional interior substructures as inspired by many biological materials. We propose to encode passively actuated movement into physical structures by integrating HWAs within 3D-printed meta-structures with functionally graded stiffnesses. By leveraging robotic manufacturing platforms, self-shaping biocomposite material systems can be upscaled with variable resolutions and at high volumes, resulting in large-scale structures capable of transforming from flat to curved simply through changes in relative humidity.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "chengWeatherresponsiveAdaptiveShading2024",
+    "type": "article",
+    "title": "Weather-Responsive Adaptive Shading through Biobased and Bioinspired Hygromorphic 4D-printing",
+    "authors": [
+      "Tiffany Cheng",
+      "Yasaman Tahouni",
+      "Ekin Sila Sahin",
+      "Kim Ulrich",
+      "Silvia Lajewski",
+      "Christian Bonten",
+      "Dylan Wood",
+      "Jürgen Rühe",
+      "Thomas Speck",
+      "Achim Menges"
+    ],
+    "year": 2024,
+    "venue": "Nature Communications",
+    "volume": "15",
+    "pages": "10366",
+    "doi": "10.1038/s41467-024-54808-8",
+    "url": "https://doi.org/10.1038/s41467-024-54808-8",
+    "abstract": "In response to the global challenge of reducing carbon emissions and energy consumption from regulating indoor climates, we investigate the applicability of biobased cellulosic materials and bioinspired 4D-printing for weather-responsive adaptive shading in building facades. Cellulose is an abundantly available natural material resource that exhibits hygromorphic actuation potential when used in 4D-printing to emulate motile plant structures in bioinspired bilayers. Three key aspects are addressed: (i) examining the motion response of 4D-printed hygromorphic bilayers to both temperature and relative humidity, (ii) verifying the responsiveness of self-shaping shading elements in lab-generated conditions as well as under daily and seasonal weather conditions for over a year, and (iii) deploying the adaptive shading system for testing in a real building facade by upscaling the 4D-printing manufacturing process. This study demonstrates that hygromorphic bilayers can be utilized for weather-responsive facades and that the presented system is architecturally scalable in quantity. Bioinspired 4D-printing and biobased cellulosic materials offer a resource-efficient and energy-autonomous solution for adaptive shading, with potential contributions towards indoor climate regulation and climate change mitigation.",
+    "keywords": [
+      "Bioinspired materials",
+      "Civil engineering",
+      "Mechanical engineering"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water",
+        "heat"
+      ],
+      "activeMaterial": "cellulose-based composite",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "chiBistableMultistableActuators",
+    "type": "article",
+    "title": "Bistable and Multistable Actuators for Soft Robots: Structures, Materials, and Functionalities",
+    "authors": [
+      "Yinding Chi",
+      "Yanbin Li",
+      "Yao Zhao",
+      "Yaoye Hong",
+      "Yichao Tang",
+      "Jie Yin"
+    ],
+    "year": null,
+    "venue": "",
+    "volume": "",
+    "pages": "",
+    "doi": "10.1002/adma.202110384",
+    "url": "https://doi.org/10.1002/adma.202110384",
+    "abstract": "Harnessing bistability and multistability for creating varieties of high-performance soft robots has attracted increasing interest in soft robotics. This paper presents a comprehensive review of inte...",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "correa3DPrintedWoodProgramming2015",
+    "type": "article",
+    "title": "3D-Printed Wood: Programming Hygroscopic Material Transformations",
+    "authors": [
+      "David Correa",
+      "Athina Papadopoulou",
+      "Christophe Guberan",
+      "Nynika Jhaveri",
+      "Steffen Reichert",
+      "Achim Menges",
+      "Skylar Tibbits"
+    ],
+    "year": 2015,
+    "venue": "3D Printing and Additive Manufacturing",
+    "volume": "2",
+    "pages": "106--116",
+    "doi": "10.1089/3dp.2015.0022",
+    "url": "https://doi.org/10.1089/3dp.2015.0022",
+    "abstract": "Rapid advances in digital fabrication technologies and new materials development allow for direct control and programmability of physical material transformations. By utilizing multimaterial 3D printing technologies and anisotropic material compositions, we can physically program hygroscopic materials such as wood to precisely sense and self-transform based on fluctuations in the environment. While wood remains one of the most common building materials in use today, it is still predominantly designed to be industrially standardized rather than taking advantage of its inherent anisotropic properties. This research aims to enhance wood's anisotropic and hygroscopic properties by designing and 3D printing custom wood grain structures to promote tunable selftransformation. In this article we present new methods for designing hygroscopic wood transformations and custom techniques for energy activation. A differentiated printing method promotes wood transformation solely through the design of custom-printed wood fibers. Alternatively, a multimaterial printing method allows for greater control and intensified wood transformations through the precise design of multimaterial prints composed of both synthetic wood and polymers. The presented methods, techniques, and material tests demonstrate the first successful results of differentiated printed wood for self-transforming behavior, suggesting a new approach for programmable material and responsive architectures.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "wood veneer/fiber",
+      "passiveMaterial": "",
+      "fabrication": "multimaterial 3D printing",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "correa4DPineScale2020",
+    "type": "article",
+    "title": "4D Pine Scale: Biomimetic 4D Printed Autonomous Scale and Flap Structures Capable of Multi-Phase Movement",
+    "authors": [
+      "David Correa",
+      "Simon Poppinga",
+      "Max D. Mylo",
+      "Anna S. Westermeier",
+      "Bernd Bruchmann",
+      "Achim Menges",
+      "Thomas Speck"
+    ],
+    "year": 2020,
+    "venue": "Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "volume": "378",
+    "pages": "20190445",
+    "doi": "10.1098/rsta.2019.0445",
+    "url": "https://doi.org/10.1098/rsta.2019.0445",
+    "abstract": "We developed biomimetic hygro-responsive composite polymer scales inspired by the reversible shape-changes of Bhutan pine ( Pinus wallichiana ) cone seed scales. The synthetic kinematic response is made possible through novel four-dimensional (4D) printing techniques with anisotropic material use, namely copolymers with embedded cellulose fibrils and ABS polymer. Multi-phase motion like the subsequent transversal and longitudinal bending deformation during desiccation of a natural pinecone scale can be structurally programmed into such printed hygromorphs. Both the natural concept generator (Bhutan pinecone scale) and the biomimetic technical structure (4D printed scale) were comparatively investigated as to their displacement and strain over time via three-dimensional digital image correlation methods. Our bioinspired prototypes can be the basis for tailored autonomous and self-sufficient flap and scale structures performing complex consecutive motions for technical applications, e.g. in architecture and soft robotics. This article is part of the theme issue `Bioinspired materials and surfaces for green science and technology (part 3)'.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "cellulose-based composite / ABS",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "correa4DPrintedHygroscopic2022",
+    "type": "book",
+    "title": "4D Printed Hygroscopic Programmable Material Architectures",
+    "authors": [
+      "David Correa"
+    ],
+    "year": 2022,
+    "venue": "Stuttgart : Institute for Computational Design and Construction, University of Stuttgart",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "url": "",
+    "abstract": "Developing Materials that can change their shape in response to external signals, like heat or humidity, is a critical concern for architectural design as it enables designers to develop building components that can be programmed to transform in response to changing environmental conditions. However, developing a stimulus-responsive material requires the architect to extend its level of engagement from the macroscale of the building into the much smaller scale of the material's micro- and meso-structure. In this thesis, a novel approach for the 4D printing (4DP) of hygroscopic responsive shape-changing mechanisms is proposed and analysed. This approach engages the design of mesoscale technical structures, via a precise material deposition, that harness the anisotropic properties inherent to the fabrication process and the constitution of the printing material itself. Organization models from biological organisms, such as motile plant structures, are abstracted into smart 4D printed techniques to preprogram water induced shape-change using copolymers with embedded cellulose fibrils. This principle enables expansion or contraction forces, whose direction and strength are dependent on the architecture of the 3D printed structure. A series of experiments are described that validate the transfer of known hygroscopic bilayer principles from lamination processes to 3D printing (3DP). They demonstrate the increased programmable control of the 4DP technique through functional gradation, moisture control and multi-phase motion; and present the augmented kinematic capacity of the novel 4DP technique. In addition to the self-shaping mechanisms, the possibilities and challenges of using 4DP structures in architectural applications, such as aperture assemblies and flap mechanisms are discussed. The presented techniques, and bio-inspired approach to material organization, demonstrate the first successful application of differentiated Wood Polymer Composite (WPC) 3DP for programmable hygroscopic shape-change. The experiments can help to form the basis for complex stimulus-responsive building components capable of performing autonomous transformations in technical applications for thermal and moisture regulation.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water",
+        "heat"
+      ],
+      "activeMaterial": "wood-polymer composite (WPC) / cellulose-based composite",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "daiReversibleSnappingConstrained2024",
+    "type": "article",
+    "title": "Reversible Snapping of Constrained Anisotropic Hydrogels Upon Light Stimulations",
+    "authors": [
+      "Chen Fei Dai",
+      "Qing Li Zhu",
+      "Olena Khoruzhenko",
+      "Michael Thelen",
+      "Huiying Bai",
+      "Josef Breu",
+      "Miao Du",
+      "Qiang Zheng",
+      "Zi Liang Wu"
+    ],
+    "year": 2024,
+    "venue": "Advanced Science",
+    "volume": "11",
+    "pages": "2402824",
+    "doi": "10.1002/advs.202402824",
+    "url": "https://doi.org/10.1002/advs.202402824",
+    "abstract": "Abstract Creatures, such as Venus flytrap and hummingbirds, capable of rapid predation through snap-through transition, provide paradigms for the design of soft actuators and robots with fast actions. However, these artificial ``snappers'' usually need contact stimulations to trigger the flipping. Reported here is a constrained anisotropic poly( N -isopropylacrylamide) hydrogel showing fast snapping upon light stimulation. This hydrogel is prepared by flow-induced orientation of nanosheets (NSs) within a rectangular tube. The precursor containing gold nanoparticles is immediately exposed to UV light for photopolymerization to fix the ordered structure of NSs. Two ends of the slender gel are clamped to form a buckle with bistability nature, which snaps to the other side upon laser irradiation. Systematic experiments are conducted to investigate the influences of power intensity and irradiation angle of the laser, as well as thickness and buckle height of the gel, on the snapping behaviors. The fast snapping is further used to kick a plastic bead and control the switch state. Furthermore, synergetic or oscillated snapping of the gel with two buckles of opposite directions is realized by inclined irradiation of a laser or horizontal irradiation with two lasers, respectively. Such light-steered snapping of hydrogels should merit designing soft robots, energy harvests, etc.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "light"
+      ],
+      "activeMaterial": "hydrogel",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "dekergariouDesign4DPrintedHygromorphs2023a",
+    "type": "article",
+    "title": "The Design of 4D-Printed Hygromorphs: State-of-the-Art and Future Challenges",
+    "authors": [
+      "Charles De Kergariou",
+      "Frederic Demoly",
+      "Adam Perriman",
+      "Antoine Le Duigou",
+      "Fabrizio Scarpa"
+    ],
+    "year": 2023,
+    "venue": "Advanced Functional Materials",
+    "volume": "33",
+    "pages": "2210353",
+    "doi": "10.1002/adfm.202210353",
+    "url": "https://doi.org/10.1002/adfm.202210353",
+    "abstract": "Abstract In recent years, 4D printing has allowed the rapid development of new concepts of multifunctional/adaptive structures. The 4D printing technology makes it possible to generate new shapes and/or property-changing capabilities by combining smart materials, multiphysics stimuli, and additive manufacturing. Hygromorphs constitute a specific class of new smart materials where their properties and morphing capabilities are dependent on the surrounding humidity, which drives actuation. Although multiple efforts have been made to fabricate hygromorph demonstrators, a comprehensive design process to produce hygromorphs by multiple 4D printing techniques is not yet available. The broad aim of this review and concept paper is to i) highlight existing scientific and technology gaps in the field of 4D-printed hygromorphs, ii) identify tools existing in other research fields for filling those gaps, and iii) discuss a series of guidelines for tackling future challenges and opportunities to develop 4D-printed composite hygromorph materials and related manufacturing processes. Accordingly, this review describes the materials and additive manufacturing techniques used for hygromorph composite fabrication. Moreover, the relevant parameters that control actuation, the models selection and performance, the design methods and the actuation measurements for customized 4D-printed hygromorph materials, are discussed.",
+    "keywords": [
+      "/must read",
+      "/review"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "additive manufacturing (general)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "dekergariouHygromnemicsProgrammableMaterial",
+    "type": "article",
+    "title": "Hygromnemics: Programmable Material Memory Matter in 4D Printed Biocomposites Soft Robots via Wet Pre-Constraining.",
+    "authors": [
+      "Charles de Kergariou",
+      "Scott Smith",
+      "Richard S Trask",
+      "Adam Perriman",
+      "Fabrizio Scarpa"
+    ],
+    "year": null,
+    "venue": "",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "url": "",
+    "abstract": "We introduce hygromnemic actuators that store shape memory within their dry structure using a preconstraining mechanism activated by humidity. Actuators are pre-constrained for various durations at a given relative humidity level to program desired hygromnemic actuation. Hygromnemic functions, linking deformation amplitude to constraint duration were defined following these tests. Sinusoidal actuation patterns are achieved by positioning constraining blocks at different distances from the actuators. They operate effectively in low humidity (12% relative humidity). Equivalent actuators operating in wet conditions were designed with a genetic algorithm with sine shape tested structures whose amplitude deviates by only 1.1% from analytical model predictions. Our actuator systems can be used to create a soft robotic window that opens in both dry and wet conditions, depending on preconditioning programming. Remarkably, these hygromnemic actuators display their actuated shape in dry conditions where their strength and stiffness are 438 % and 1458 % higher than in the wet conditions. Finally, the shape storage capability shows potential to control the actuated shape during operational service of the robots thanks to the long and short term memory effect highlighted. The hygromnemic mechanisms described here enable low-cost humidity-driven programmable matter states, similar to those achieved with thermally-induced shape memory effects.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "dekergariouHygromnemicsProgrammableMaterial2025",
+    "type": "article",
+    "title": "Hygromnemics: Programmable Material Memory Matter Actuators via Wet Pre-Constraining",
+    "authors": [
+      "Charles De Kergariou",
+      "Findlay S. G. Smith",
+      "Richard S. Trask",
+      "Adam W. Perriman",
+      "Fabrizio Scarpa",
+      "David Correa"
+    ],
+    "year": 2025,
+    "venue": "Advanced Materials Technologies",
+    "volume": "10",
+    "pages": "e00647",
+    "doi": "10.1002/admt.202500647",
+    "url": "https://doi.org/10.1002/admt.202500647",
+    "abstract": "Abstract Hygromnemic actuators that store shape memory within their dry structure using a pre-constraining mechanism activated by humidity is introduced. Actuators are pre-constrained for various durations at a given relative humidity level to program desired hygromnemic actuation. Hygromnemic functions, linking deformation amplitude to constraint duration, are defined following these tests. Sinusoidal actuation patterns are achieved by positioning constraining blocks at different distances from the actuators. They operate effectively in low humidity (12% relative humidity). While describing the mechanism behind hygromnemic actuation, humidity shape memory actuation is unveiled when the actuation shape is stored after Glass Transition Temperature (Tg) is lowered via humidity conditioning. The actuator systems are used to create a soft robotic window opening in both dry and wet conditions, depending on preconditioning programming. Remarkably, these hygromnemic actuators display their actuated shape in dry conditions where their strength is 253% higher and their stiffness is more than one order of magnitude larger than in the wet conditions. Finally, the shape storage capability shows potential to control the actuated shape during operational service of the robots thanks to long- and short-term memory effect highlighted. The hygromnemic mechanisms described here enable low-cost humidity-driven programmable matter states, similar to those achieved with thermally-induced shape memory effects.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water",
+        "heat"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "elderfield3DPrintedBistable2025",
+    "type": "article",
+    "title": "3D Printed Bistable Composite Lattice Shells with Tailorable Coiled Geometries",
+    "authors": [
+      "Nicholas Elderfield",
+      "Aghna Mukherjee",
+      "Paolo Ermanni",
+      "Joanna C.H. Wong"
+    ],
+    "year": 2025,
+    "venue": "Composite Structures",
+    "volume": "370",
+    "pages": "119332",
+    "doi": "10.1016/j.compstruct.2025.119332",
+    "url": "https://doi.org/10.1016/j.compstruct.2025.119332",
+    "abstract": "This investigation presents, to the authors' best knowledge, the first 3D printed continuous fiber-reinforced polymer composite deployable booms. The precise material placement capabilities of the fused filament fabrication (FFF) process are leveraged to produce cylindrical bistable slit tube booms with lattice architectures. The influences of fiber angles, lattice density, and initial shell curvature on the existence and form of stable coiled configurations as well as flexural rigidity properties are investigated. A computational procedure for automatically generating finite element models directly from material deposition paths is presented, with predicted shell behaviors showing strong agreement with experimental results using both homogenization and full-scale modeling approaches. Lattice shell architectures are revealed to exhibit higher flexural rigidity properties than continuum architectures on an equal-mass basis. Finally, bistable slit tube booms that can coil into unique stable configurations via the tailoring of material deposition paths are demonstrated.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "FDM/FFF",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "esserArtificialVenusFlytraps2020",
+    "type": "article",
+    "title": "Artificial Venus Flytraps: A Research Review and Outlook on Their Importance for Novel Bioinspired Materials Systems",
+    "authors": [
+      "Falk J. Esser",
+      "Philipp Auth",
+      "Thomas Speck"
+    ],
+    "year": 2020,
+    "venue": "Frontiers in Robotics and AI",
+    "volume": "7",
+    "pages": "",
+    "doi": "10.3389/frobt.2020.00075",
+    "url": "https://doi.org/10.3389/frobt.2020.00075",
+    "abstract": "Bioinspired and biomimetic soft machines rely on functions and working principles that have been abstracted from biology, but that have evolved over 3.5 billion years. So far, few examples from the huge pool of natural models have been examined and transferred to technical applications. Like living organisms, subsequent generations of soft machines will autonomously respond, sense, and adapt to the environment. Plants as concept generators remain relatively unexplored in biomimetic approaches to robotics and related technologies, despite being able to grow and continuously adapt in response to environmental stimuli. In this research review, we highlight recent developments in plant-inspired soft machine systems based on movement principles. We focus on inspirations taken from fast active movements in the carnivorous Venus flytrap (Dionaea muscipula) and compare current developments in artificial Venus flytraps with their biological role model. The advantages and disadvantages of current systems are also analyzed and discussed, and a new state-of-the-art autonomous system is derived. Incorporation of the basic structural and functional principles of the Venus flytrap into novel autonomous applications in the field of robotics not only will inspire further plant-inspired biomimetic developments, but might also advance contemporary plant-inspired robots leading to fully autonomous systems utilizing bioinspired working concepts.",
+    "keywords": [
+      "artificial",
+      "artificial Venus flytrap",
+      "Biomimetics",
+      "Demonstrators",
+      "embodied intelligence (EI)",
+      "materials systems"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "filipovMechanicalCharacteristicsBistable2018",
+    "type": "article",
+    "title": "Mechanical Characteristics of the Bistable Origami Hypar",
+    "authors": [
+      "E.T. Filipov",
+      "M. Redoutey"
+    ],
+    "year": 2018,
+    "venue": "Extreme Mechanics Letters",
+    "volume": "25",
+    "pages": "16--26",
+    "doi": "10.1016/j.eml.2018.10.001",
+    "url": "https://doi.org/10.1016/j.eml.2018.10.001",
+    "abstract": "This letter explores the mechanical behavior of the origami hyperbolic paraboloid or hypar which is a bistable thin sheet structure with symmetric stable states. We use experiments to evaluate the global and local behaviors of the structure, which are unique from other bistable origami systems. In theory, for the hypar to reconfigure between the stable states, the thin sheet which is initially patterned with acute and reflex folds needs to fully flatten. However, we find that axial stretching as well as two distinctly different buckling patterns in the origami can allow for portions of the sheet to remain folded during the reconfiguration. The spacing of folds in the hypar, the resulting buckling characteristics, the stretching of the sheet, and the local material nonlinearity at the fold lines all have significant effects on the force--displacement response of the system. The work gives insight to these phenomena which are often omitted in the testing and modeling of more conventional origami-inspired systems. We reinforce our understanding of the hypar behavior by establishing an analytical model that can simulate the kinematics, the buckling, and the force--displacement behavior of the structure. The letter also discusses topics for future extension and introduces hypar chains where multiple hypars are connected in series to achieve multistability.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "yes",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "FoldingMechanicsBistable2024",
+    "type": "article",
+    "title": "Folding Mechanics of a Bistable Composite Tape-Spring for Flexible Mechanical Hinge",
+    "authors": [],
+    "year": 2024,
+    "venue": "International Journal of Mechanical Sciences",
+    "volume": "272",
+    "pages": "109188",
+    "doi": "10.1016/j.ijmecsci.2024.109188",
+    "url": "https://doi.org/10.1016/j.ijmecsci.2024.109188",
+    "abstract": "A bistable composite tape-spring (CTS) structure is stable in both extended and coiled configurations, which can be fully coiled or folded. Its bistab…",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "forterreHowVenusFlytrap2005",
+    "type": "article",
+    "title": "How the Venus Flytrap Snaps",
+    "authors": [
+      "Yoël Forterre",
+      "Jan M. Skotheim",
+      "Jacques Dumais",
+      "L. Mahadevan"
+    ],
+    "year": 2005,
+    "venue": "Nature",
+    "volume": "433",
+    "pages": "421--425",
+    "doi": "10.1038/nature03185",
+    "url": "https://doi.org/10.1038/nature03185",
+    "abstract": "",
+    "keywords": [
+      "/important"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "gaussAdditiveManufacturingHygromorphic2023",
+    "type": "article",
+    "title": "Additive Manufacturing of Hygromorphic Structures Using Regenerated Cellulose/PLA Biocomposites",
+    "authors": [
+      "Christian Gauss",
+      "Kim Pickering",
+      "Maxime Barbier",
+      "Tim Miller"
+    ],
+    "year": 2023,
+    "venue": "Materials Today: Proceedings",
+    "volume": "",
+    "pages": "S2214785323021235",
+    "doi": "10.1016/j.matpr.2023.04.227",
+    "url": "https://doi.org/10.1016/j.matpr.2023.04.227",
+    "abstract": "",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "cellulose-based composite / PLA",
+      "passiveMaterial": "",
+      "fabrication": "additive manufacturing (general)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "guestAnalyticalModelsBistable2006",
+    "type": "article",
+    "title": "Analytical Models for Bistable Cylindrical Shells",
+    "authors": [
+      "S. D. Guest",
+      "S. Pellegrino"
+    ],
+    "year": 2006,
+    "venue": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "volume": "462",
+    "pages": "839--854",
+    "doi": "10.1098/rspa.2005.1598",
+    "url": "https://doi.org/10.1098/rspa.2005.1598",
+    "abstract": "Abstract. Thin cylindrical shell structures can show interesting bistable behaviour. If made unstressed from isotropic materials they are only stable in th",
+    "keywords": [
+      "/must read"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "HowWaterwheelPlant",
+    "type": "misc",
+    "title": "How the waterwheel plant snaps",
+    "authors": [],
+    "year": null,
+    "venue": "",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "url": "",
+    "abstract": "",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "huangInterrelationsPrintingPatterns2024",
+    "type": "article",
+    "title": "Interrelations between Printing Patterns and Residual Stress in Fused Deposition Modelling for the 4D Printing of Acrylonitrile Butadiene Styrene and Wood--Plastic Composites",
+    "authors": [
+      "Yerong Huang",
+      "Sandra Löschke",
+      "Yixiang Gan",
+      "Gwenaëlle Proust"
+    ],
+    "year": 2024,
+    "venue": "Journal of Manufacturing and Materials Processing",
+    "volume": "8",
+    "pages": "77",
+    "doi": "10.3390/jmmp8020077",
+    "url": "https://doi.org/10.3390/jmmp8020077",
+    "abstract": "Four dimensional printing enables the advanced manufacturing of smart objects that can morph and adapt shape over time in response to stimuli such as heat. This study presents a single-material 4D printing workflow which explores the residual stress and anisotropy arising from the fused deposition modelling (FDM) printing process to create heat-triggered self-morphing objects. In particular, the study first investigates the effect of printing patterns on the residual stress of FDM-printed acrylonitrile butadiene styrene (ABS) products. Through finite element analysis, the raster angle of printing patterns was identified as the key parameter influencing the distribution of residual stresses. Experimental investigations further reveal that the non-uniform distribution of residual stress results in the anisotropic thermal deformation of printed materials. Thus, through the design of printing patterns, FDM-printed materials can be programmed with desired built-in residual stresses and anisotropic behaviours for initiating and controlling the transformation of 4D-printed objects. Using the proposed approach, any desktop FDM printers can be turned into 4D printers to create smart objects that can self-morph into target geometries. A series of 4D printing prototypes manufactured from conventional ABS 3D printing feedstock are tested to illustrate the use and reliability of this new workflow. Additionally, the custom-made wood--plastic composite (WPC) feedstocks are explored in this study to demonstrate the transposability of the 4D printing approach.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "heat"
+      ],
+      "activeMaterial": "wood-polymer composite (WPC) / ABS",
+      "passiveMaterial": "",
+      "fabrication": "FDM/FFF",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "janbazDiffusiveKinksTurn2024",
+    "type": "article",
+    "title": "Diffusive Kinks Turn Kirigami into Machines",
+    "authors": [
+      "Shahram Janbaz",
+      "Corentin Coulais"
+    ],
+    "year": 2024,
+    "venue": "Nature Communications",
+    "volume": "15",
+    "pages": "1255",
+    "doi": "10.1038/s41467-024-45602-7",
+    "url": "https://doi.org/10.1038/s41467-024-45602-7",
+    "abstract": "Abstract Kinks define boundaries between distinct configurations of a material. In the context of mechanical metamaterials, kinks have recently been shown to underpin logic, shape-changing and locomotion functionalities. So far such kinks propagate by virtue of inertia or of an external load. Here, we discover the emergence of propagating kinks in purely dissipative kirigami. To this end, we create kirigami that shape-change into different textures depending on how fast they are stretched. We find that if we stretch fast and wait, the viscoelastic kirigami can eventually snap from one texture to another. Crucially, such a snapping instability occurs in a sequence and a propagating diffusive kink emerges. As such, it mimics the slow sequential folding observed in biological systems, e.g., Mimosa Pudica. We finally demonstrate that diffusive kinks can be harnessed for basic machine-like functionalities, such as sensing, dynamic shape morphing, transport and manipulation of objects.",
+    "keywords": [
+      "/unread"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "yes",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "jeong3DPrintingTwisting2019",
+    "type": "article",
+    "title": "3D Printing of Twisting and Rotational Bistable Structures with Tuning Elements",
+    "authors": [
+      "Hoon Yeub Jeong",
+      "Soo-Chan An",
+      "In Cheol Seo",
+      "Eunseo Lee",
+      "Sangho Ha",
+      "Namhun Kim",
+      "Young Chul Jun"
+    ],
+    "year": 2019,
+    "venue": "Scientific Reports",
+    "volume": "9",
+    "pages": "324",
+    "doi": "10.1038/s41598-018-36936-6",
+    "url": "https://doi.org/10.1038/s41598-018-36936-6",
+    "abstract": "Abstract Three-dimensional (3D) printing is ideal for the fabrication of various customized 3D components with fine details and material-design complexities. However, most components fabricated so far have been static structures with fixed shapes and functions. Here we introduce bistability to 3D printing to realize highly-controlled, reconfigurable structures. Particularly, we demonstrate 3D printing of twisting and rotational bistable structures. To this end, we have introduced special joints to construct twisting and rotational structures without post-assembly. Bistability produces a well-defined energy diagram, which is important for precise motion control and reconfigurable structures. Therefore, these bistable structures can be useful for simplified motion control in actuators or for mechanical switches. Moreover, we demonstrate tunable bistable components exploiting shape memory polymers. We can readjust the bistability-energy diagram (barrier height, slope, displacement, symmetry) after printing and achieve tunable bistability. This tunability can significantly increase the use of bistable structures in various 3D-printed components.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "shape memory polymer (SMP)",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "jourdanShrinkMorph3DPrinted2023",
+    "type": "article",
+    "title": "Shrink & Morph: 3D-Printed Self-Shaping Shells Actuated by a Shape Memory Effect",
+    "authors": [
+      "David Jourdan",
+      "Pierre-Alexandre Hugron",
+      "Camille Schreck",
+      "Jonàs Martinez",
+      "Sylvain Lefebvre"
+    ],
+    "year": 2023,
+    "venue": "ACM Transactions on Graphics",
+    "volume": "42",
+    "pages": "1--13",
+    "doi": "10.1145/3618386",
+    "url": "https://doi.org/10.1145/3618386",
+    "abstract": "While 3D printing enables the customization and home fabrication of a wide range of shapes, fabricating freeform thin-shells remains challenging. As layers misalign with the curvature, they incur structural deficiencies, while the curved shells require large support structures, typically using more material than the part itself. We present a computational framework for optimizing the internal structure of 3D printed plates such that they morph into a desired freeform shell when heated. This exploits the shrinkage effect of thermoplastics such as PLA, which store internal stresses along the deposition directions. These stresses get released when the material is heated again above its glass transition temperature, causing an anisotropic deformation that induces curvature. Our inverse design method takes as input a freeform surface and finds an optimized set of deposition trajectories in each layer such that their anisotropic shrinkage deforms the plate into the prescribed surface geometry. We optimize for a continuous vector field that varies across the plate and within its thickness. The algorithm then extracts a set of deposition trajectories from the vector field in order to fabricate the flat plates on standard FFF printers. We validate our algorithm on freeform, doubly-curved surfaces.",
+    "keywords": [
+      "/unread"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "heat"
+      ],
+      "activeMaterial": "PLA",
+      "passiveMaterial": "",
+      "fabrication": "FDM/FFF",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "jungFabricationCompositeSheet2015",
+    "type": "article",
+    "title": "Fabrication of Composite and Sheet Metal Laminated Bistable Jumping Mechanism",
+    "authors": [
+      "Sun-Pill Jung",
+      "Gwang-Pil Jung",
+      "Je-Sung Koh",
+      "Dae-Young Lee",
+      "Kyu-Jin Cho"
+    ],
+    "year": 2015,
+    "venue": "Journal of Mechanisms and Robotics",
+    "volume": "7",
+    "pages": "021010",
+    "doi": "10.1115/1.4029489",
+    "url": "https://doi.org/10.1115/1.4029489",
+    "abstract": "A layer-based manufacturing method using composite microstructures is widely used for mesoscale robot fabrication. This fabrication method has enabled the development of a lightweight and robust jumping robot, but there are limitations in relation to the embedding of elastic components. In this paper, a fabrication method for embedding an elastic component at an angled position is developed, extending the capability of the composite microstructures. This method is then used to build an axial spring attached to the bistable mechanism of a jumping robot. Sheet metal is used as an elastic component, which is stamped after the layering and curing process, thereby changing the neutral position of the spring. Two linear springs are designed to be in parallel with a joint to impose bistability; thereby delivering two stable states. This bistable mechanism is triggered with a shape memory alloy (SMA) coil spring actuator. A small-scale jumping mechanism is then fabricated using this mechanism; it jumps when the snap-through of the bistable mechanism occurs. A model of the stamped sheet metal spring is built based on a pseudo rigid body model (PRBM) to estimate the spring performance, and a predictive sheet metal bending model is also built to design the die for stamping. The experimental results show that the stamped sheet metal spring stores 12.63 mJ of elastic energy, and that the mechanism can jump to a height of 175\\,mm with an initial takeoff velocity of 1.93\\,m/s.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "light"
+      ],
+      "activeMaterial": "shape memory alloy (SMA)",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "karizEFFECTHUMIDITY3DPRINTED2018",
+    "type": "article",
+    "title": "EFFECT OF HUMIDITY ON 3D-PRINTED SPECIMENS FROM WOOD-PLA FILAMENTS",
+    "authors": [
+      "Mirko Kariz",
+      "Milan Sernek",
+      "Manja Kitek Kuzman"
+    ],
+    "year": 2018,
+    "venue": "WOOD RESEARCH",
+    "volume": "63",
+    "pages": "",
+    "doi": "",
+    "url": "",
+    "abstract": "",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "PLA",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "kebadzeBistablePrestressedShell",
+    "type": "article",
+    "title": "Bistable Prestressed Shell Structures",
+    "authors": [
+      "E Kebadze",
+      "S D Guest",
+      "S Pellegrino"
+    ],
+    "year": null,
+    "venue": "",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "url": "",
+    "abstract": "The paper investigates a cylindrical shell which has two stable configurations, due to a particular distribution of residual stresses induced by plastic bending. The basic mechanics of the bistability are explained, along with details of the plastic forming. A comprehensive analytical model is developed which predicts the residual stress distribution and bistable configurations of the shell. Good correlation has been found between experimental results and predictions from this model.",
+    "keywords": [
+      "/must read"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "kongOrigamiBistableLaminate2026",
+    "type": "article",
+    "title": "From Origami to Bistable and Laminate Structures: A Review for Multifunctional Applications from Structural Perspective of Shape-Changing Structures",
+    "authors": [
+      "Lingchen Kong",
+      "Yaoyao Fiona Zhao"
+    ],
+    "year": 2026,
+    "venue": "Advanced Intelligent Systems",
+    "volume": "8",
+    "pages": "2500505",
+    "doi": "10.1002/aisy.202500505",
+    "url": "https://doi.org/10.1002/aisy.202500505",
+    "abstract": "Conventional systems based on traditional design strategies typically excel at single-task performance but lack adaptability when operating conditions change. Reconfiguration offers a promising alternative, enabling systems to adopt multiple configurations tailored to varying requirements. Natural biological organisms regularly modify their morphology to overcome environmental challenges, inspiring engineering applications that seek similar adaptability. However, the real potential of reconfiguration in engineering is often bounded by traditional design strategies and rigid materials. In this case, shape-changing structures can provide new insights. This review focuses on the structural foundations of reconfigurable design, emphasizing key principles across origami, bistable structures, and laminate structures, and examines how these shape-changing structures can enhance the multifunctionality in soft robotics, soft manipulators, and metamaterials. Finally, the review discusses the primary challenges faced by achieving the multifunctionality in practical applications. In conclusion, combining advanced materials with innovative structural designs enables systems to achieve diverse working modes and adaptive properties, paving the way for more versatile and resilient applications across various fields.",
+    "keywords": [
+      "bistable structures",
+      "laminate structures",
+      "metamaterials",
+      "origami",
+      "reconfiguration",
+      "shape-changing structures",
+      "soft robotics"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "yes",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "leduigouReview3D4D2020",
+    "type": "article",
+    "title": "A Review of 3D and 4D Printing of Natural Fibre Biocomposites",
+    "authors": [
+      "Antoine Le Duigou",
+      "David Correa",
+      "Masahito Ueda",
+      "Ryosuke Matsuzaki",
+      "Mickael Castro"
+    ],
+    "year": 2020,
+    "venue": "Materials & Design",
+    "volume": "194",
+    "pages": "108911",
+    "doi": "10.1016/j.matdes.2020.108911",
+    "url": "https://doi.org/10.1016/j.matdes.2020.108911",
+    "abstract": "To date, the literature has focused on synthetic fibre-reinforced composites, but it has not adequately addressed the unique properties that differentiate natural from synthetic fibres, such as their natural variation in microstructure and composition across species. This review paper proposes a critical overview of the current state of 3D printing of natural fibre-reinforced composites or biocomposites for mechanical purposes, as well as an overview of their role in 4D printing for stimuli-responsive applications. The paper is structured as follows: after the first part recalling the specificities of natural fibres and their associated composites, the two main sections are each divided into two parts presenting an analysis of the available data to provide fundamental understandings and a discussion and outlook for the future. Natural discontinuous fibre-reinforced polymers exhibit moderate mechanical properties compared to composites manufactured by conventional processes due to specific factors of the 3D printing process, such as high porosity, low fibre content, and a very low fibre-aspect ratio (L/d). Hygromorph BioComposites (HBC) are categorized into a new class of smart materials that could be used for 4D printing of shape-changing mechanisms. Fibre content, fibre orientation control, and fibre continuity are outlined in relation to known challenges in actuation performance.",
+    "keywords": [
+      "/review",
+      "3D printing",
+      "4D printing",
+      "Composites",
+      "Hygromorphing",
+      "Natural fibres"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "natural fiber biocomposite",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "maderLearningPlantMovements2020",
+    "type": "article",
+    "title": "Learning from Plant Movements Triggered by Bulliform Cells: The Biomimetic Cellular Actuator",
+    "authors": [
+      "Anja Mader",
+      "Max Langer",
+      "Jan Knippers",
+      "Olga Speck"
+    ],
+    "year": 2020,
+    "venue": "Journal of The Royal Society Interface",
+    "volume": "17",
+    "pages": "20200358",
+    "doi": "10.1098/rsif.2020.0358",
+    "url": "https://doi.org/10.1098/rsif.2020.0358",
+    "abstract": "Within the framework of a biomimetic top-down approach, our study started with the technical question of the development of a hinge-free and compliant actuator inspired by plant movements. One meaningful biological concept generator was the opening and closing movements of the leaf halves of grasses. Functional morphological investigations were carried out on the selected model plant Sesleria nitida. The results formed the basis for further clarifying the functional movement principle with a particular focus on the role of turgor changes in bulliform cells on kinetic amplification. All findings gained from the investigations of the biological model were incorporated into a finite-element analysis, as a prerequisite for the development of a pneumatic cellular actuator. The first prototype consisted of a row of single cells positioned on a plate. The cells were designed in such a way that the entire structure bent when the pneumatic pressure applied to each individual cell was increased. The pneumatic cellular actuator thus has the potential for applications on an architectural scale. It has subsequently been integrated into the midrib of the facade shading system Flectofold in which the bending of its midrib controls the hoisting of its wings.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "pneumatic",
+        "hydraulic/turgor"
+      ],
+      "activeMaterial": "biological (plant tissue)",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "nas4DPrintingHygroscopic2023",
+    "type": "inproceedings",
+    "title": "4D Printing of Hygroscopic Wood Based Actuators for Climate Responsive Skin",
+    "authors": [
+      "Mehmet O\\u guz Nas",
+      "Arzu Gönenç Sorguç"
+    ],
+    "year": 2023,
+    "venue": "eCAADe 2023: Digital Design Reconsidered",
+    "volume": "",
+    "pages": "439--448",
+    "doi": "10.52842/conf.ecaade.2023.1.439",
+    "url": "https://doi.org/10.52842/conf.ecaade.2023.1.439",
+    "abstract": "",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "ouKinetiXDesigningAuxeticinspired2018",
+    "type": "article",
+    "title": "KinetiX - Designing Auxetic-Inspired Deformable Material Structures",
+    "authors": [
+      "Jifei Ou",
+      "Zhao Ma",
+      "Jannik Peters",
+      "Sen Dai",
+      "Nikolaos Vlavianos",
+      "Hiroshi Ishii"
+    ],
+    "year": 2018,
+    "venue": "Computers & Graphics",
+    "volume": "75",
+    "pages": "72--81",
+    "doi": "10.1016/j.cag.2018.06.003",
+    "url": "https://doi.org/10.1016/j.cag.2018.06.003",
+    "abstract": "This paper describes a group of auxetic-inspired material structures that can transform into various shapes upon compression. We developed four cellular-based material structure units composed of rigid plates and elastic/rotary hinges. Different compositions of these units lead to a variety of tunable shape-changing possibilities, such as uniform scaling, shearing, bending and rotating. By tessellating those transformations together, we can create various higher level transformations for product design. In the paper, we first give a geometrical and numerical description of the units' configuration and their degrees of freedom. An interactive simulation tool is developed for users to input designed structures and preview the transformation. Finally we present three application prototypes that utilize our proposed structures.",
+    "keywords": [
+      "Computational fabrication",
+      "Digital fabrication",
+      "Linkage design",
+      "Shape-changing materials"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "overveldeThreedimensionalActuatedOrigamiinspired2016",
+    "type": "article",
+    "title": "A Three-Dimensional Actuated Origami-Inspired Transformable Metamaterial with Multiple Degrees of Freedom",
+    "authors": [
+      "Johannes T.B. Overvelde",
+      "Twan A. De Jong",
+      "Yanina Shevchenko",
+      "Sergio A. Becerra",
+      "George M. Whitesides",
+      "James C. Weaver",
+      "Chuck Hoberman",
+      "Katia Bertoldi"
+    ],
+    "year": 2016,
+    "venue": "Nature Communications",
+    "volume": "7",
+    "pages": "10929",
+    "doi": "10.1038/ncomms10929",
+    "url": "https://doi.org/10.1038/ncomms10929",
+    "abstract": "Abstract Reconfigurable devices, whose shape can be drastically altered, are central to expandable shelters, deployable space structures, reversible encapsulation systems and medical tools and robots. All these applications require structures whose shape can be actively controlled, both for deployment and to conform to the surrounding environment. While most current reconfigurable designs are application specific, here we present a mechanical metamaterial with tunable shape, volume and stiffness. Our approach exploits a simple modular origami-like design consisting of rigid faces and hinges, which are connected to form a periodic structure consisting of extruded cubes. We show both analytically and experimentally that the transformable metamaterial has three degrees of freedom, which can be actively deformed into numerous specific shapes through embedded actuation. The proposed metamaterial can be used to realize transformable structures with arbitrary architectures, highlighting a robust strategy for the design of reconfigurable devices over a wide range of length scales.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "yes",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "ozdemirSelfshapingMetamaterialShells2022",
+    "type": "inproceedings",
+    "title": "Towards Self-shaping Metamaterial Shells:",
+    "authors": [
+      "E. Özdemir",
+      "L. Kiesewetter",
+      "K. Antorveza",
+      "T. Cheng",
+      "S. Leder",
+      "D. Wood",
+      "A. Menges"
+    ],
+    "year": 2022,
+    "venue": "Proceedings of the 2021 DigitalFUTURES",
+    "volume": "",
+    "pages": "275--285",
+    "doi": "10.1007/978-981-16-5983-6_26",
+    "url": "https://doi.org/10.1007/978-981-16-5983-6_26",
+    "abstract": "Double curvature enables elegant and material-efficient shell structures, but their construction typically relies on heavy machining, manual labor, and the additional use of material wasted as one-off formwork. Using a material's intrinsic properties for self-shaping is an energy and resource-efficient solution to this problem. This research presents a fabrication approach for self-shaping double-curved shell structures combining the hygroscopic shape-changing and scalability of wood actuators with the tunability of 3D-printed metamaterial patterning. Using hybrid robotic fabrication, components are additively manufactured flat and self-shape to a pre-programmed configuration through drying. A computational design workflow including a lattice and shell-based finite element model was developed for the design of the metamaterial pattern, actuator layout, and shape prediction. The workflow was tested through physical prototypes at centimeter and meter scales. The results show an architectural scale proof of concept for self-shaping double-curved shell structures as a resource-efficient physical form generation method.",
+    "keywords": [
+      "3D printing",
+      "Material programming",
+      "Mechanical metamaterials",
+      "Robotic fabrication",
+      "Self-shaping wood"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "PDFCurvatureInducedInstabilities",
+    "type": "article",
+    "title": "(PDF) Curvature-Induced Instabilities of Shells",
+    "authors": [],
+    "year": null,
+    "venue": "ResearchGate",
+    "volume": "",
+    "pages": "",
+    "doi": "10.1103/PhysRevLett.120.048002",
+    "url": "https://doi.org/10.1103/PhysRevLett.120.048002",
+    "abstract": "PDF | Induced by proteins within the cell membrane or by differential growth, heating, or swelling, spontaneous curvatures can drastically affect the... | Find, read and cite all the research you need on ResearchGate",
+    "keywords": [
+      "/must read"
+    ],
+    "inScope": false,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": null
+  },
+  {
+    "key": "PDFSnappingSurfaces",
+    "type": "article",
+    "title": "(PDF) Snapping Surfaces",
+    "authors": [],
+    "year": null,
+    "venue": "ResearchGate",
+    "volume": "",
+    "pages": "",
+    "doi": "10.1002/adma.200700584",
+    "url": "https://doi.org/10.1002/adma.200700584",
+    "abstract": "PDF | A robust, biomimetic responsive surface based on an array of microlens shells that snap from one curvature to another curvature was prepared.... | Find, read and cite all the research you need on ResearchGate",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "pellicciaFourDimensionalMultistepVertical2025",
+    "type": "article",
+    "title": "Four-Dimensional Multistep Vertical Printing for Hygroresponsive Shape Change with Nonplanar Rest-State Geometries",
+    "authors": [
+      "Giulia Pelliccia",
+      "Fabio Bianconi",
+      "Marco Filippucci",
+      "David Correa"
+    ],
+    "year": 2025,
+    "venue": "3D Printing and Additive Manufacturing",
+    "volume": "12",
+    "pages": "141--154",
+    "doi": "10.1089/3dp.2023.0337",
+    "url": "https://doi.org/10.1089/3dp.2023.0337",
+    "abstract": "Four-dimensional printing (4DP) via fused deposition modeling has been used to create hygromorphic biocomposite actuators through wood polymer composite (WPC) filaments. The shape-change transformation of the 4DP composite mechanism is preprogrammed by controlling the printing process parameters and the design of the print-path pattern. Until now, most 4DP approaches involving Wood Polymer Composite (WPCs) have focused on planar actuators featuring a bilayer structure composed of laminar layers with distinct material properties. These mechanisms show a laminar initial rest state, presenting as flat objects, and can only achieve a complex three-dimensional shape when subjected to the moisture variations stimulus. The presented research highlights the development of a multistage printing method that expands the capabilities of three-axis printers to enable the 4DP of mechanism with complex nonplanar rest-state geometries. The new technical capabilities of this method are demonstrated here through the creation and testing of novel nonlaminar 4DP mechanisms that harness their unique doubly curved reststate geometry to achieve kinematic amplification. We expect that this approach can greatly improve the range and complexity of 4DP mechanisms that can be developed using the commonly available three-axis printers.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "wood-polymer composite (WPC)",
+      "passiveMaterial": "",
+      "fabrication": "FDM/FFF",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "reichertMeteorosensitiveArchitectureBiomimetic2015",
+    "type": "article",
+    "title": "Meteorosensitive Architecture: Biomimetic Building Skins Based on Materially Embedded and Hygroscopically Enabled Responsiveness",
+    "authors": [
+      "Steffen Reichert",
+      "Achim Menges",
+      "David Correa"
+    ],
+    "year": 2015,
+    "venue": "Computer-Aided Design",
+    "volume": "60",
+    "pages": "50--69",
+    "doi": "10.1016/j.cad.2014.02.010",
+    "url": "https://doi.org/10.1016/j.cad.2014.02.010",
+    "abstract": "In this paper, the authors present research into autonomously responsive architectural systems that adapt to environmental changes using hygroscopic material properties. Instead of using superimposed layers of singular purpose mechanisms--for sensing, actuation, control and power--in the form of high-tech electronic equipment as is emblematic for current approaches to climate responsiveness in architecture, the presented research follows an integrative, no-tech strategy that can be considered to follow biological rather than mechanical principles. In nature plants employ different systems to respond to environmental changes. One particularly promising way is hygroscopic actuation, as it allows for metabolically independent movement and thus provides an interesting model for autonomous, passive and materially embedded responsiveness. The paper presents a comprehensive overview of the parameters, variables and syntactic elements that enable the development of such meteorosensitive architectural systems based on the biomimetic transfer of the hygroscopic actuation of plant cones. It provides a summary of five years of research by the authors on architectural systems which utilize the hygroscopic qualities of wooden veneer as a naturally produced constituent within weather responsive composite systems, which is presented through an extensive analysis of research samples, prototypes at various scales, and two comprehensive case studies of full scale constructions.",
+    "keywords": [
+      "Computational design",
+      "Hygroscopic actuation",
+      "Passive actuation",
+      "Responsive architecture",
+      "Wood structures"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "wood veneer/fiber",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "renPlantMorphingStrategiesPlantInspired2021",
+    "type": "article",
+    "title": "Plant-Morphing Strategies and Plant-Inspired Soft Actuators Fabricated by Biomimetic Four-Dimensional Printing: A Review",
+    "authors": [
+      "Luquan Ren",
+      "Bingqian Li",
+      "Kunyang Wang",
+      "Xueli Zhou",
+      "Zhengyi Song",
+      "Lei Ren",
+      "Qingping Liu"
+    ],
+    "year": 2021,
+    "venue": "Frontiers in Materials",
+    "volume": "8",
+    "pages": "651521",
+    "doi": "10.3389/fmats.2021.651521",
+    "url": "https://doi.org/10.3389/fmats.2021.651521",
+    "abstract": "For prey, seeding, and protection, plants exhibit ingenious adaptive motions that respond autonomously to environmental stimuli by varying cellular organization, anisotropic orientation of cellulose fibers, mechanical instabilities design, etc. Notably, plants do not leverage muscle and nerves to produce and regulate their motions. In contrast, they harvest energy from ambient environment and compute through embodied intelligence. These characteristics make them ideal candidates for the application in self-morphing devices. 4D printing is a bottom-up additive manufacturing method that builds objects with the ability to change shape/properties in a predetermined manner. A versatile motion design catalogue are required to predict the morphing processes and final states of the printed parts. This review summarizes the morphing and actuation mechanisms of plants, and concludes the recent development of 4D printed smart materials inspired by the locomotion and structures of plant systems. We provide the analyses of the challenges and envisions of biomimetic 4D printing, hoping to boost its application in soft robotics, smart medical devices, and smart parts in aerospace, etc.",
+    "keywords": [
+      "/must read",
+      "/review"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "cellulose-based composite",
+      "passiveMaterial": "",
+      "fabrication": "additive manufacturing (general)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "rileyInverseDesignBistable2024",
+    "type": "article",
+    "title": "Inverse Design of Bistable Composite Laminates with Switching Tunneling Method for Global Optimization",
+    "authors": [
+      "Katherine S. Riley",
+      "Mark H. Jhon",
+      "Hortense Le Ferrand",
+      "Dan Wang",
+      "Andres F. Arrieta"
+    ],
+    "year": 2024,
+    "venue": "Communications Engineering",
+    "volume": "3",
+    "pages": "115",
+    "doi": "10.1038/s44172-024-00260-x",
+    "url": "https://doi.org/10.1038/s44172-024-00260-x",
+    "abstract": "Dr Wang, Dr Arrieta, and colleagues report a switching tunneling method for the inverse design of bistable composite laminates. Their optimization methodology addresses the bistable composites' highly nonlinear nature and successfully identifies the variable pre-strain fields to match the target stable shapes.",
+    "keywords": [
+      "/must read"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "saberiExplainableArtificialIntelligence2023",
+    "type": "article",
+    "title": "Explainable Artificial Intelligence to Investigate the Contribution of Design Variables to the Static Characteristics of Bistable Composite Laminates",
+    "authors": [
+      "Saeid Saberi",
+      "Hamid Nasiri",
+      "Omid Ghorbani",
+      "Michael I. Friswell",
+      "Saullo G. P. Castro"
+    ],
+    "year": 2023,
+    "venue": "Materials",
+    "volume": "16",
+    "pages": "5381",
+    "doi": "10.3390/ma16155381",
+    "url": "https://doi.org/10.3390/ma16155381",
+    "abstract": "Material properties, geometrical dimensions, and environmental conditions can greatly influence the characteristics of bistable composite laminates. In the current work, to understand how each input feature contributes to the curvatures of the stable equilibrium shapes of bistable laminates and the snap-through force to change these configurations, the correlation between these inputs and outputs is studied using a novel explainable artificial intelligence (XAI) approach called SHapley Additive exPlanations (SHAP). SHAP is employed to explain the contribution and importance of the features influencing the curvatures and the snap-through force since XAI models change the data into a form that is more convenient for users to understand and interpret. The principle of minimum energy and the Rayleigh--Ritz method is applied to obtain the responses of the bistable laminates used as the input datasets in SHAP. SHAP effectively evaluates the importance of the input variables to the parameters. The results show that the transverse thermal expansion coefficient and moisture variation have the most impact on the model's output for the transverse curvatures and snap-through force. The eXtreme Gradient Boosting (XGBoost) and Finite Element (FM) methods are also employed to identify the feature importance and validate the theoretical approach, respectively.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water",
+        "heat"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "sahinCrossSectional4DPrintingUpscaling2023",
+    "type": "article",
+    "title": "Cross-Sectional 4D-Printing: Upscaling Self-Shaping Structures with Differentiated Material Properties Inspired by the Large-Flowered Butterwort (Pinguicula Grandiflora)",
+    "authors": [
+      "Ekin Sila Sahin",
+      "Tiffany Cheng",
+      "Dylan Wood",
+      "Yasaman Tahouni",
+      "Simon Poppinga",
+      "Marc Thielen",
+      "Thomas Speck",
+      "Achim Menges"
+    ],
+    "year": 2023,
+    "venue": "Biomimetics",
+    "volume": "8",
+    "pages": "233",
+    "doi": "10.3390/biomimetics8020233",
+    "url": "https://doi.org/10.3390/biomimetics8020233",
+    "abstract": "Extrusion-based 4D-printing, which is an emerging field within additive manufacturing, has enabled the technical transfer of bioinspired self-shaping mechanisms by emulating the functional morphology of motile plant structures (e.g., leaves, petals, capsules). However, restricted by the layer-by-layer extrusion process, much of the resulting works are simplified abstractions of the pinecone scale's bilayer structure. This paper presents a new method of 4D-printing by rotating the printed axis of the bilayers, which enables the design and fabrication of self-shaping monomaterial systems in cross sections. This research introduces a computational workflow for programming, simulating, and 4D-printing differentiated cross sections with multilayered mechanical properties. Taking inspiration from the large-flowered butterwort (Pinguicula grandiflora), which shows the formation of depressions on its trap leaves upon contact with prey, we investigate the depression formation of bioinspired 4D-printed test structures by varying each depth layer. Cross-sectional 4D-printing expands the design space of bioinspired bilayer mechanisms beyond the XY plane, allows more control in tuning their self-shaping properties, and paves the way toward large-scale 4D-printed structures with high-resolution programmability.",
+    "keywords": [
+      "adaptive structures",
+      "additive manufacturing",
+      "bioinspiration",
+      "carnivorous plants",
+      "functional materials",
+      "material programming",
+      "mechanical metamaterials",
+      "shape change"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "extrusion-based 3D printing",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "shanMultistableArchitectedMaterials2015a",
+    "type": "article",
+    "title": "Multistable Architected Materials for Trapping Elastic Strain Energy",
+    "authors": [
+      "Sicong Shan",
+      "Sung H. Kang",
+      "Jordan R. Raney",
+      "Pai Wang",
+      "Lichen Fang",
+      "Francisco Candido",
+      "Jennifer A. Lewis",
+      "Katia Bertoldi"
+    ],
+    "year": 2015,
+    "venue": "Advanced Materials",
+    "volume": "27",
+    "pages": "4296--4301",
+    "doi": "10.1002/adma.201501708",
+    "url": "https://doi.org/10.1002/adma.201501708",
+    "abstract": "3D printing and numerical analysis are combined to design a new class of architected materials that contain bistable beam elements and exhibit controlled trapping of elastic energy. The proposed energy-absorbing structures are reusable. Moreover, the mechanism of energy absorption stems solely from the structural geometry of the printed beam elements, and is therefore both material- and loading-rate independent.",
+    "keywords": [
+      "/important",
+      "3D printing",
+      "architected materials",
+      "energy trapping",
+      "multistability",
+      "reversibility"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "sobotaBistablePolarorthotropicShallow2019",
+    "type": "article",
+    "title": "Bistable Polar-Orthotropic Shallow Shells",
+    "authors": [
+      "P. M. Sobota",
+      "K. A. Seffen"
+    ],
+    "year": 2019,
+    "venue": "Royal Society Open Science",
+    "volume": "6",
+    "pages": "190888",
+    "doi": "10.1098/rsos.190888",
+    "url": "https://doi.org/10.1098/rsos.190888",
+    "abstract": "We investigate stabilizing and eschewing factors on bistability in polar-orthotropic shells in order to enhance morphing structures. The material law causes stress singularities when the circumferential stiffness is smaller than the radial stiffness ( \\beta < 1), requiring a careful choice of the trial functions in our Ritz approach, which employs a higher-order geometrically nonlinear analytical model. Bistability is found to strongly depend on the orthotropic ratio, \\beta , and the in-plane support conditions. An investigation of their interaction offers a new perspective on the effect of the hoop stiffness on bistability: while usually perceived as promoting, it is shown to be only stabilizing insofar as it prevents radial expansions; however, if in-plane supports are present, it becomes a redundant feature. Closed-form approximations of the bistable threshold are then provided by single-curvature-term approaches. For significantly stiffer values of the radial stiffness, a strong coupling of the orthotropic ratio and the support conditions is revealed: while roller-supported shells are monostable, fixed-pinned ones are most disposed to stable inversions; insight is given by comparing to a simplified beam model. Eventually, we show that cutting a central hole is a suitable method to deal with stress singularities: while fixed-pinned shells are barely affected by a hole, the presence of a hole strongly favours bistable inversions in roller-supported shells.",
+    "keywords": [
+      "/unread"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "song3DPrintingContinuous2024",
+    "type": "article",
+    "title": "3D Printing of Continuous Cotton Thread Reinforced Poly (Lactic Acid)",
+    "authors": [
+      "Xiaohui Song",
+      "Yishen Ye",
+      "Shifeng Huang",
+      "Xingguo Han",
+      "Zhouping Huang",
+      "Wenfang Guan",
+      "Zhengwei Yang",
+      "Minggan Wang"
+    ],
+    "year": 2024,
+    "venue": "Scientific Reports",
+    "volume": "14",
+    "pages": "30858",
+    "doi": "10.1038/s41598-024-81699-y",
+    "url": "https://doi.org/10.1038/s41598-024-81699-y",
+    "abstract": "This paper purposed to prepare poly (lactic acid)/continuous cotton thread (PLA /CCT) filaments by using prepreg method, and investigated the properties of PLA/CCT filament and their 3D printed composites. Firstly, a prepreg device was home-made to immerse CCT with PLA melts. The effects of the dragging speed and tensioning equipment on the quality of PLA/CCT filament was investigated. The functions of the immersion temperature, diameter of CCT and alkali treatment of CCT to the tensile properties of PLA/CCT filament were inspected. The results showed that when the dragging speed was 12 r/min, the diameter of the PLA/CCT filament equaled to the standard 3D printed diameter (1.75 mm). Increasing the CCT diameter from 0.6 to 1.0 mm, the tensile strength was improved from 44.26 to 52.81 MPa. The alkali treatment reduced the contact angle of PLA dramatically, and further improved the interfacial compatibility between PLA and CCT, and enhanced the tensile properties of filament composites. Secondly, for achieving CCT without any cutting during the 3D printing, an un-cutting off route was planned. Taguchi experiment was used to investigate how the 3D printing processing parameters affect the flexural properties of the 3D printed PLA/CCT composites. Meanwhile, the impact properties of the 3D printed PLA/CCT composites were analyzed. The results showed that the flexural strength and strain of PLA were improved to 135 MPa and 4.39% with 3D parameters (210°C of nozzle temperature and 6 mm/s of printing speed). The impact strength of PLA was enhanced dramatically by 5.5% times from 2.75 to 18.87 J/mm2. Finally, a thermal experiment was carried out and the results showed that PLA did not degrade during the processing and its molecular structure stayed the same at various states. The results of this paper demonstrated that the natural fiber CCT can be used to enforce PLA and lower the cost of PLA, and the PLA/CCT composites have the potential to be applied in fields of 3D printing of light-weight parts.",
+    "keywords": [
+      "Engineering",
+      "Environmental sciences"
+    ],
+    "inScope": false,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": null
+  },
+  {
+    "key": "speckPlantsInspirationMaterialbased2023",
+    "type": "article",
+    "title": "Plants as Inspiration for Material-Based Sensing and Actuation in Soft Robots and Machines",
+    "authors": [
+      "Thomas Speck",
+      "Tiffany Cheng",
+      "Frederike Klimm",
+      "Achim Menges",
+      "Simon Poppinga",
+      "Olga Speck",
+      "Yasaman Tahouni",
+      "Falk Tauber",
+      "Marc Thielen"
+    ],
+    "year": 2023,
+    "venue": "MRS Bulletin",
+    "volume": "48",
+    "pages": "730--745",
+    "doi": "10.1557/s43577-022-00470-8",
+    "url": "https://doi.org/10.1557/s43577-022-00470-8",
+    "abstract": "Abstract Because plants are considered immobile, they remain underrepresented as concept generators for soft robots and soft machines. However, plants show a great variety of movements exclusively based on elastic deformation of regions within their moving organs. The absence of gliding parts, as found in the joints of vertebrates and insects, prevents stress concentration and attrition. Since plants have no central control unit (brain), stimulus-sensing, decision-making and reaction usually take place noncentrally in the hierarchically structured materials systems of the moving organs, in what can be regarded as an example of physical intelligence. These characteristics make plants interesting models for a new group of soft robots and soft machines that differ fundamentally from those inspired by animals. The potential of such plant-inspired soft robots and machines is shown in six examples and is illustrated by examples applied in architecture and medicine. Graphical abstract",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "sydneygladmanBiomimetic4DPrinting2016",
+    "type": "article",
+    "title": "Biomimetic 4D Printing",
+    "authors": [
+      "A. Sydney Gladman",
+      "Elisabetta A. Matsumoto",
+      "Ralph G. Nuzzo",
+      "L. Mahadevan",
+      "Jennifer A. Lewis"
+    ],
+    "year": 2016,
+    "venue": "Nature Materials",
+    "volume": "15",
+    "pages": "413--418",
+    "doi": "10.1038/nmat4544",
+    "url": "https://doi.org/10.1038/nmat4544",
+    "abstract": "Printed hydrogel composites with plant-inspired architectures dynamically change shape on immersion in water to yield prescribed complex morphologies.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "hydrogel",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "taffetaniStaticBistabilitySpherical2018",
+    "type": "article",
+    "title": "Static Bistability of Spherical Caps",
+    "authors": [
+      "Matteo Taffetani",
+      "Xin Jiang",
+      "Douglas P. Holmes",
+      "Dominic Vella"
+    ],
+    "year": 2018,
+    "venue": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+    "volume": "474",
+    "pages": "20170910",
+    "doi": "10.1098/rspa.2017.0910",
+    "url": "https://doi.org/10.1098/rspa.2017.0910",
+    "abstract": "Depending on its geometry, a spherical shell may exist in one of two stable states without the application of any external force: there are two `self-equilibrated' states, one natural and the other inside out (or `everted'). Though this is familiar from everyday life---an umbrella is remarkably stable, yet a contact lens can be easily turned inside out---the precise shell geometries for which bistability is possible are not known. Here, we use experiments and finite-element simulations to determine the threshold between bistability and monostability for shells of different solid angle. We compare these results with the prediction from shallow shell theory, showing that, when appropriately modified, this offers a very good account of bistability even for relatively deep shells. We then investigate the robustness of this bistability against pointwise indentation. We find that indentation provides a continuous route for transition between the two states for shells whose geometry makes them close to the threshold. However, for thinner shells, indentation leads to asymmetrical buckling before snap-through, while also making these shells more `robust' to snap-through. Our work sheds new light on the robustness of the `mirror buckling' symmetry of spherical shell caps.",
+    "keywords": [
+      "/unread"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "light"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "tahouniProgrammingSequentialMotion2021",
+    "type": "article",
+    "title": "Programming Sequential Motion Steps in 4D-printed Hygromorphs by Architected Mesostructure and Differential Hygro-Responsiveness",
+    "authors": [
+      "Yasaman Tahouni",
+      "Friederike Krüger",
+      "Simon Poppinga",
+      "Dylan Wood",
+      "Matthias Pfaff",
+      "Jürgen Rühe",
+      "Thomas Speck",
+      "Achim Menges"
+    ],
+    "year": 2021,
+    "venue": "Bioinspiration & Biomimetics",
+    "volume": "16",
+    "pages": "055002",
+    "doi": "10.1088/1748-3190/ac0c8e",
+    "url": "https://doi.org/10.1088/1748-3190/ac0c8e",
+    "abstract": "Through their anisotropic cellular mesostructure and differential swelling and shrinking properties, hygroscopic plant structures move in response to changes in the environment without consuming metabolic energy. When the movement is choreographed in sequential time steps, either in individual structures or with a coordinated interplay of various structural elements, complex functionalities such as dispersal and protection of seeds are achieved. Inspired by the multi-phase motion in plant structures, this paper presents a method to physically program the timescale and the sequences of shape-change in 4D-printed hygromorphic structures. Using the FDM 3D-printing method, we have developed multi-layered, multi-material functional bilayers that combine highly hygroscopic active layers (printed with hygroscopic bio-composite materials) with hydrophobic restrictive and blocking layers (printed with PLA and TPC materials). The timescale of motion is programmed through the design of the mesostructured layers and 3D-printing process parameters, including thickness (number of printed active layers), porosity (filling ratio of the active layer), and water permeability (filling ratio of the blocking layer). Through a series of experiments, it is shown that the timescale of motion can be extended by increasing the thickness of the active layer, decreasing the porosity of the active layer, or increasing the filling ratio of the hydrophobic restrictive and blocking layers. Similarly, a lower thickness of the active layer and lower filling ratio of all layers result in a faster motion. As a proof of concept, we demonstrate several prototypes that exhibit sequential motion, including an aperture with overlapping elements where each completes its movement sequentially to avoid collision, and a self-locking mechanism where defined areas of the structure are choreographed to achieve a multi-step self-shaping and locking function. The presented method extends the programmability and the functional capabilities of hygromorphic 4D-printing, allowing for novel applications across fields such as robotics, smart actuators, and adaptive architecture.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "PLA / TPC",
+      "passiveMaterial": "",
+      "fabrication": "FDM/FFF",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "tahouniProgrammingShapechangeIntegrative2024",
+    "type": "book",
+    "title": "Programming Shape-Change : Integrative Computational Design of Materials, Mesostructures, and Motion Mechanisms for 4D-printing",
+    "authors": [
+      "Yasaman Tahouni"
+    ],
+    "year": 2024,
+    "venue": "Stuttgart : Institute for Computational Design and Construction, University of Stuttgart",
+    "volume": "",
+    "pages": "",
+    "doi": "",
+    "url": "",
+    "abstract": "Shape-changing material systems are advantageous as passively actuated mechanisms for generating movement, with architectural applications ranging from adaptive building skins to the self-shaping manufacturing of building components. 4D printing, a technique that combines stimuli-responsive materials with additive manufacturing, is a promising method for the fabrication and programming of shape-changing structures. However, limitations in material responsiveness, programmability of shape-change, and the robustness of structures have constrained their functionality and real-world applicability. This dissertation introduces an integrative computational fabrication approach for the development of 4D printed hygroscopic material systems based on co-designing materials, mesostructures, and motion mechanisms. By tuning the material properties and structuring at hierarchical length scales, highly functional and precisely programmable 4D printed material systems have been developed. This material programming approach has been demonstrated through three studies, each focusing on one of the aforementioned aspects: by co-designing biobased cellulose-filled materials for 4D printing, the responsiveness of structures to target ranges of ambient relative humidity levels has been tuned; by precisely designing the mesoscale material structuring inside the 4D printed elements, their spatial and temporal shape change has been programmed; and through the development and utilization of computational fabrication workflows for 4D printing, novel motion mechanisms with enhanced functionality, such as motion amplification, have been created. The proposed material programming methodology and the developed material system have been implemented in the design and fabrication of SolarGate, a 4D printed, weather-responsive façade system installed on the LivMatS Biomimetic Shell. Consisting of 424 4D printed shading elements, the SolarGate regulates the solar heat gain of the building by providing adaptive shading in response to daily and seasonal weather cycles without consuming any operational energy. These results showcase the potential for creating an architecture that is highly functional, ecological, and in tune with the environment, being powered by and at the same time empowering the earth.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water",
+        "heat"
+      ],
+      "activeMaterial": "cellulose-based composite",
+      "passiveMaterial": "",
+      "fabrication": "additive manufacturing (general)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "tahouniSelfshapingCurvedFolding2020",
+    "type": "inproceedings",
+    "title": "Self-Shaping Curved Folding: A 4D-printing Method for Fabrication of Self-Folding Curved Crease Structures",
+    "authors": [
+      "Yasaman Tahouni",
+      "Tiffany Cheng",
+      "Dylan Wood",
+      "Renate Sachse",
+      "Rebecca Thierer",
+      "Manfred Bischoff",
+      "Achim Menges"
+    ],
+    "year": 2020,
+    "venue": "Symposium on Computational Fabrication",
+    "volume": "",
+    "pages": "1--11",
+    "doi": "10.1145/3424630.3425416",
+    "url": "https://doi.org/10.1145/3424630.3425416",
+    "abstract": "",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "yes",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "3D/4D printing (process unspecified)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "tremlOrigamiMechanologic2018",
+    "type": "article",
+    "title": "Origami Mechanologic",
+    "authors": [
+      "Benjamin Treml",
+      "Andrew Gillman",
+      "Philip Buskohl",
+      "Richard Vaia"
+    ],
+    "year": 2018,
+    "venue": "Proceedings of the National Academy of Sciences",
+    "volume": "115",
+    "pages": "6916--6921",
+    "doi": "10.1073/pnas.1805122115",
+    "url": "https://doi.org/10.1073/pnas.1805122115",
+    "abstract": "Significance Autonomy separates robots from machines. Incorporating autonomy into soft robots is an outstanding challenge due to the mismatch between rigid electronics and the compliant bodies. In this work, we demonstrate origami as a platform for compliant mechanical logic, containing mechanical bits, logic gates, and signal transmission mechanisms that can supplement conventional electronic controls. Furthermore, these processes can be responsive to and programmed by the environment via the integration of adaptive materials. Thus, origami provides a framework in which sensing, computation, and reflexes can be seamlessly integrated into the compliant bodies of soft robotics. , Robots autonomously interact with their environment through a continual sense--decide--respond control loop. Most commonly, the decide step occurs in a central processing unit; however, the stiffness mismatch between rigid electronics and the compliant bodies of soft robots can impede integration of these systems. We develop a framework for programmable mechanical computation embedded into the structure of soft robots that can augment conventional digital electronic control schemes. Using an origami waterbomb as an experimental platform, we demonstrate a 1-bit mechanical storage device that writes, erases, and rewrites itself in response to a time-varying environmental signal. Further, we show that mechanical coupling between connected origami units can be used to program the behavior of a mechanical bit, produce logic gates such as AND, OR, and three input majority gates, and transmit signals between mechanologic gates. Embedded mechanologic provides a route to add autonomy and intelligence in soft robots and machines.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "yes",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "vazquezDigitalWorkflowDesigning2021",
+    "type": "inproceedings",
+    "title": "Towards a Digital Workflow for Designing Bistable Kinetic Façades",
+    "authors": [
+      "Elena Vazquez",
+      "Berfin Evrim",
+      "Jose Duarte"
+    ],
+    "year": 2021,
+    "venue": "eCAADe Proceedings",
+    "volume": "",
+    "pages": "365--372",
+    "doi": "10.52842/conf.ecaade.2021.1.365",
+    "url": "https://doi.org/10.52842/conf.ecaade.2021.1.365",
+    "abstract": "New engineered materials present an excellent opportunity for architects and researchers to reimagine traditionally static building components as dynamic and shape-changing. Bistable materials show two zero energy states and can transition between them with the input of a small force. These engineered materials have yet to be explored for large-scale architectural applications. This study presents a digital workflow for designing a kinetic shading system for facades with bistable laminates. The workflow includes an FEA model that predicts the curved shape of bistable laminates and a digital simulation model that predicts the natural light performance of the resulting kinetic screens. We describe the workflow and demonstrate its use with a case study of a manually operated bistable facade. The study forms part of a larger research agenda to develop kinetic architectural systems using bistable and smart materials.",
+    "keywords": [
+      "/must read"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "light"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "walkerShapeBistableCreased2018",
+    "type": "article",
+    "title": "On the Shape of Bistable Creased Strips",
+    "authors": [
+      "Martin G. Walker",
+      "Keith A. Seffen"
+    ],
+    "year": 2018,
+    "venue": "Thin-Walled Structures",
+    "volume": "124",
+    "pages": "538--545",
+    "doi": "10.1016/j.tws.2017.12.033",
+    "url": "https://doi.org/10.1016/j.tws.2017.12.033",
+    "abstract": "We investigate the bistable behaviour of folded thin strips bent along their central crease. Making use of a simple Gauss mapping, we describe the kinematics of a hinge and facet model, which forms a discrete version of the bistable creased strip. The Gauss mapping technique is then generalised for an arbitrary number of hinge lines, which become the generators of a developable surface as the number becomes large. Predictions made for both the discrete model and the creased strip match experimental results well. This study will contribute to the understanding of shell damage mechanisms; bistable creased strips may also be used in novel multistable systems.",
+    "keywords": [
+      "/unread",
+      "Bistable",
+      "Creasing",
+      "Folding",
+      "Localisation",
+      "Origami",
+      "Snap-through"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "yes",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "wangVerticalParallelMultiMaterial2025",
+    "type": "article",
+    "title": "Vertical Parallel Multi-Material 4D Printing (VPM-4DP): A Novel Strategy for Achieving Bio-Inspired Doubly Curved Non-Planar Hygroscopic Actuators",
+    "authors": [
+      "Annie Wang",
+      "Simon Poppinga",
+      "Antoine Le Duigou",
+      "Elena Vazquez",
+      "David Correa"
+    ],
+    "year": 2025,
+    "venue": "Architectural Intelligence",
+    "volume": "4",
+    "pages": "21",
+    "doi": "10.1007/s44223-025-00103-5",
+    "url": "https://doi.org/10.1007/s44223-025-00103-5",
+    "abstract": "Most 4D-printed hygromorphic mechanisms using fibre-polymer composite filaments are thin laminated bilayer composite structures, which are printed flat on the 3D printer bed and shape-change into single or double-curvature geometries in response to moisture uptake. The tendency towards thin laminated 2D-like bilayers might be traced to early research on shape-change laminates, such as bimetals, or to the vertical layering sequencing of most additive manufacturing methods. Recently, actuators with non-planar geometries have been achieved through complex rotational 3D printing, 5 or 6-axis printers, or multi-step repositioning of parts, but these methods require bespoke equipment or intensive post-processing, which greatly limits their application to the ubiquitous 3-axis gantry system. In this paper, we introduce a strategy for vertically printing non-planar shape-changing hygromorphic structures that requires only one print session and minimal post-processing. We demonstrate the novel capability of the presented strategy by creating actuators with double-curvature geometries based on the biological models of the Bauhinia variegata seed pod and the Lilium `Casa Blanca' tepals. This novel approach reduces the complexity of manufacturing intricate 4D-printed actuators that have doubly curved geometry. The possibilities in 4D-printed shape parameters are expanded through this method, considering that dimensional curvature and form can now be more easily introduced to structures previously limited by planar printing.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "additive manufacturing (general)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "westermeierHowCarnivorousWaterwheel2018",
+    "type": "article",
+    "title": "How the Carnivorous Waterwheel Plant (Aldrovanda Vesiculosa) Snaps",
+    "authors": [
+      "Anna S. Westermeier",
+      "Renate Sachse",
+      "Simon Poppinga",
+      "Philipp Vögele",
+      "Lubomir Adamec",
+      "Thomas Speck",
+      "Manfred Bischoff"
+    ],
+    "year": 2018,
+    "venue": "Proceedings of the Royal Society B: Biological Sciences",
+    "volume": "285",
+    "pages": "",
+    "doi": "10.1098/rspb.2018.0012",
+    "url": "https://doi.org/10.1098/rspb.2018.0012",
+    "abstract": "The fast motion of the snap-traps of the terrestrial Venus flytrap ( Dionaea muscipula ) have been intensively studied, in contrast to the tenfold faster underwater snap-traps of its phylogenetic sister, the waterwheel plant ( Aldrovanda vesiculosa ). Based on biomechanical and functional--morphological analyses and on a reverse biomimetic approach via mechanical modelling and computer simulations, we identify a combination of hydraulic turgor change and the release of prestress stored in the trap as essential for actuation. Our study is the first to identify and analyse in detail the motion principle of Aldrovanda , which not only leads to a deepened understanding of fast plant movements in general, but also contributes to the question of how snap-traps may have evolved and also allows for the development of novel biomimetic compliant mechanisms.",
+    "keywords": [
+      "/must read",
+      "bioinspiration"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water",
+        "hydraulic/turgor"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "woodMaterialComputation4D2016",
+    "type": "article",
+    "title": "Material Computation---4D Timber Construction: Towards Building-Scale Hygroscopic Actuated, Self-Constructing Timber Surfaces",
+    "authors": [
+      "Dylan Marx Wood",
+      "David Correa",
+      "Oliver David Krieg",
+      "Achim Menges"
+    ],
+    "year": 2016,
+    "venue": "International Journal of Architectural Computing",
+    "volume": "14",
+    "pages": "49--62",
+    "doi": "10.1177/1478077115625522",
+    "url": "https://doi.org/10.1177/1478077115625522",
+    "abstract": "The implementation of active and responsive materials in architecture and construction allows for the replacement of digitally controlled mechanisms with material-based systems that can be designed and programmed with the capacity to compute and execute a behavioral response. The programming of such systems with increasingly specific response requires a material-driven computational design and fabrication strategy. This research presents techniques and technologies for significantly upscaling hygroscopically actuated timber-based systems for use as self-constructing building surfaces. The timber's integrated hygroscopic characteristics combined with computational design techniques and existing digital fabrication methods allow for a designed processing and reassembly of discrete wood elements into large-scale multi element bilayer surfaces. This material assembly methodology enables the design and control of the encoded direction and magnitude of humidity-actuated responsive curvature at an expanded scale. Design, simulation, and material assembly tests are presented together with formal and functional configurations that incorporate self-constructing and self-rigidizing surface strategies. The presented research and prototypes initiate a shift toward a large-scale, self-construction methodology.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "woodMaterialProgrammingBioinspired2023",
+    "type": "incollection",
+    "title": "Material Programming for Bio-inspired and Bio-based Hygromorphic Building Envelopes",
+    "authors": [
+      "Dylan Wood",
+      "Tiffany Cheng",
+      "Yasaman Tahouni",
+      "Achim Menges"
+    ],
+    "year": 2023,
+    "venue": "Advanced Materials in Smart Building Skins for Sustainability: From Nano to Macroscale",
+    "volume": "",
+    "pages": "99--112",
+    "doi": "10.1007/978-3-031-09695-2_4",
+    "url": "https://doi.org/10.1007/978-3-031-09695-2_4",
+    "abstract": "Building skinsBuilding skins play a decisive role in maintaining occupant comfort. Adaptive buildingAdaptive Architecture skins have been proposed to adjust to the weather, with mechanically complex multi-component solutions that require operating energy. Nature and its materials exhibit a fundamentally different strategy for environmental responsiveness; motile plant systems show entirely passive, integrative, hygroscopic actuationHygroscopic actuation due to their cellulose-based material structure. Through a design and fabrication process we refer to as material programming, a bio-inspired and bio-based functional integration of actuator, sensor, and controller can be achieved. We present an overview of related research on weather responsive building components. Wood-based composite elements that respond to relative humidity without operational energy have been demonstrated at architectural-scale. This research was recently expanded through the additive manufacturingAdditive manufacturing of custom-made natural fiber composites, allowing 4D-printed self-shaping compliant mechanisms based on highly differentiated and multifunctional plant movements with varying mechanical stiffnesses and actuation speeds. The application of 4D-printing4D-printing to weather responsive shading systems still necessitates the codesign of materials, mechanism, and façade system as well as matching stimuli-responsiveness to ambient weather conditions and mass production at the scale of buildings. Overcoming these challenges will enable a more reliable, sustainable, and zero-energy solution for regulating comfort in the built environment.",
+    "keywords": [
+      "4D-printing",
+      "Adaptive architecture",
+      "Additive manufacturing",
+      "Bio-based materials",
+      "Building Skins",
+      "Computational design",
+      "Hygromorphic",
+      "Hygroscopic actuation",
+      "Responsive materials"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [
+        "humidity/water"
+      ],
+      "activeMaterial": "cellulose-based composite / natural fiber biocomposite",
+      "passiveMaterial": "",
+      "fabrication": "additive manufacturing (general)",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "wuRemorphableArchitecturesReprogramming2026",
+    "type": "article",
+    "title": "Remorphable Architectures: Reprogramming Global Bistability through Locally Bistable Metamaterials",
+    "authors": [
+      "Lei Wu",
+      "Shujia Chen",
+      "Ali Elias Acha",
+      "Damiano Pasini"
+    ],
+    "year": 2026,
+    "venue": "Advanced Materials",
+    "volume": "38",
+    "pages": "e09940",
+    "doi": "10.1002/adma.202509940",
+    "url": "https://doi.org/10.1002/adma.202509940",
+    "abstract": "Bistability enables a physical system to reversibly transition between two stable states via snapping instability, and is broadly classified as either global--facilitating macroscopic shape morphing of a structure--or local, which enables internal geometric reconfiguration within a metamaterial. In existing metamaterials and structures, each form of bistability is implemented independently from the other, failing to capitalize on the benefits that their interaction can offer. In this work, locally bistable metamaterials are integrated into a globally bistable structure, enabling reprogrammable global bistability. By selectively transitioning local unit cells of the metamaterial into a self-contact state, a specific combination of soft hinges is encoded into the global structure. The encoded hinges can significantly alter the global kinematics of the structure, allowing reprogrammable triggering force, snapping trajectory, and energy barrier. Distinct combinations of local hinges are shown to enable a metamaterial arch to deliver multi-target actuation, a linkage to switch seamlessly between multistable, bistable, and monostable states, and a dome to transform into various curved shapes. The local-to-global interplay unveiled in this work can be leveraged to design multi-modal jumping/leaping robots and space structures capable of dynamically adjusting their actuation and morphing modes by simply flipping the local states of their unit cells.",
+    "keywords": [
+      "Bistability",
+      "Mechanical Metamaterial",
+      "Reprogrammability",
+      "Shape Morphing",
+      "Soft Actuator"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "wuSituActivationSnapThrough2023",
+    "type": "article",
+    "title": "In Situ Activation of Snap-Through Instability in Multi-Response Metamaterials through Multistable Topological Transformation",
+    "authors": [
+      "Lei Wu",
+      "Damiano Pasini"
+    ],
+    "year": 2023,
+    "venue": "Advanced Materials",
+    "volume": "35",
+    "pages": "2301109",
+    "doi": "10.1002/adma.202301109",
+    "url": "https://doi.org/10.1002/adma.202301109",
+    "abstract": "Abstract Snap-through instability has been widely leveraged in metamaterials to attain non-monotonic responses for a specific subset of applications where conventional monotonic materials fail to perform. In the remaining more plentiful set of ordinary applications, snap-through instability is harmful, and current snapping metamaterials become inadequate because their capacity to snap cannot be suppressed post-fabrication. Here, a class of topology-transformable metamaterials is introduced to enable in situ activation and deactivation of the snapping capacity, providing a remarkable level of versatility in switching between responses from monotonic to monostable and bistable snap-through. Theoretical analysis, numerical simulations, and experiments are combined to unveil the role played by contact in the topological transformation capable of increasing the geometry incompatibility and confinement stiffness of selected architectural members. The strategy here presented for post-fabrication reprogrammability of matter and on-the-fly response switching paves the way to multifunctionality for application in multiple sectors from mechanical logic gates, and adjustable energy dissipators, to in situ adaptable sport equipment.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "xiongDesigningNovelCarangiform2026",
+    "type": "article",
+    "title": "Designing Novel Carangiform Fish Robots with Undulating Hair Clip Mechanisms",
+    "authors": [
+      "Zechen Xiong",
+      "Liqi Chen",
+      "Sarah Li Wilkinson",
+      "Md Raf E. Ul Shougat",
+      "Hod Lipson"
+    ],
+    "year": 2026,
+    "venue": "npj Robotics",
+    "volume": "4",
+    "pages": "7",
+    "doi": "10.1038/s44182-025-00053-0",
+    "url": "https://doi.org/10.1038/s44182-025-00053-0",
+    "abstract": "",
+    "keywords": [],
+    "inScope": false,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": null
+  },
+  {
+    "key": "yangDesignBistableArtificial2023",
+    "type": "article",
+    "title": "Design of a Bistable Artificial Venus Flytrap Actuated by Low Pressure with Larger Capture Range and Faster Responsiveness",
+    "authors": [
+      "Junchang Yang",
+      "Fenghui Wang",
+      "Yongjun Lu"
+    ],
+    "year": 2023,
+    "venue": "Biomimetics",
+    "volume": "8",
+    "pages": "181",
+    "doi": "10.3390/biomimetics8020181",
+    "url": "https://doi.org/10.3390/biomimetics8020181",
+    "abstract": "The rapid closure of the Venus flytrap (Dionaea muscipula) can be completed within 0.1--0.5 s due to the bistability of hyperbolic leaves and the curvature change of midrib. Inspired by its bistable behavior, this paper presents a novel bioinspired pneumatic artificial Venus flytrap (AVFT), which can achieve a larger capture range and faster closure action at low working pressure and low energy consumption. Soft fiber-reinforced bending actuators are inflated to move artificial leaves and artificial midrib fabricated from bistable antisymmetric laminated carbon fiber-reinforced prepreg (CFRP) structures, and then the AVFT is rapidly closed. A two-parameter theoretical model is used to prove the bistability of the selected antisymmetric laminated CFRP structure, and analyze the factors affecting the curvature in the second stable state. Two physical quantities, critical trigger force and tip force, are introduced to associate the artificial leaf/midrib with the soft actuator. A dimension optimization framework for soft actuators is developed to reduce their working pressures. The results show that the closure range of the AVFT is extended to 180°, and the snap time is shortened to 52 ms by introducing the artificial midrib. The potential application of the AVFT for grasping objects is also shown. This research can provide a new paradigm for the study of biomimetic structures.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "pneumatic"
+      ],
+      "activeMaterial": "carbon fiber composite",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": "0.5 s"
+    }
+  },
+  {
+    "key": "yanSnapthroughInstabilityMechanical",
+    "type": "article",
+    "title": "Snap-through Instability in Mechanical Metamaterials",
+    "authors": [
+      "Sen Yan",
+      "Lingling Wu",
+      "Yongzheng Wen",
+      "Jingbo Sun",
+      "Ji Zhou"
+    ],
+    "year": null,
+    "venue": "",
+    "volume": "",
+    "pages": "",
+    "doi": "10.1002/rpm.20240035",
+    "url": "https://doi.org/10.1002/rpm.20240035",
+    "abstract": "The review explores the structural designs and deformation mechanisms of mechanical metamaterials with snap-through instability. It discusses recent advancements in their applications, focusing on un...",
+    "keywords": [
+      "/must read"
+    ],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "mechanical"
+      ],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "ySnappingHighspeedHighefficient2022",
+    "type": "article",
+    "title": "Snapping for High-Speed and High-Efficient Butterfly Stroke-like Soft Swimmer",
+    "authors": [
+      "Chi Y",
+      "Hong Y",
+      "Zhao Y",
+      "Li Y",
+      "Yin J"
+    ],
+    "year": 2022,
+    "venue": "Science advances",
+    "volume": "8",
+    "pages": "",
+    "doi": "10.1126/sciadv.add3788",
+    "url": "https://doi.org/10.1126/sciadv.add3788",
+    "abstract": "<p>Natural selection has tuned many flying and swimming animals to share the same narrow design space for high power efficiency, e.g., their dimensionless Strouhal numbers St that relate flapping frequency and amplitude and forward speed fall within the range of 0.2 < St < 0.4 for peak propulsive</p> …",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "no",
+      "bistable": "no",
+      "origami": "no",
+      "stimuli": [],
+      "activeMaterial": "",
+      "passiveMaterial": "",
+      "fabrication": "",
+      "shapeChangeTime": ""
+    }
+  },
+  {
+    "key": "zhouRationalisingOnsetBistability2026",
+    "type": "article",
+    "title": "Rationalising the Onset of Bistability in Polylactic Acid (PLA) Bilayer Laminates Using Fused Filament Fabrication (FFF)",
+    "authors": [
+      "Hongyu Zhou",
+      "Jie Zhang",
+      "Shi En Lim",
+      "Eleonora Ferraris",
+      "Hortense Le Ferrand"
+    ],
+    "year": 2026,
+    "venue": "Virtual and Physical Prototyping",
+    "volume": "21",
+    "pages": "e2618395",
+    "doi": "10.1080/17452759.2026.2618395",
+    "url": "https://doi.org/10.1080/17452759.2026.2618395",
+    "abstract": "Fused Filament Fabrication (FFF)-based 4D printing offers a versatile route for creating shapemorphing structures. However, programming advanced mechanical functionalities such as bistability into standard thermoplastics remains a significant challenge. The fundamental mechanism governing the onset of such bistability, specifically how process parameters translate into the necessary internal energetic landscape, has yet to be systematically rationalised. To address this gap, this study investigates the effects of in situ printing parameters on polylactic acid (PLA) bilayer laminates by combining experimental characterisation with thermal process simulations. The findings demonstrate that bistability is governed by the energetic balance between induced and stored pre-strains, arising from the entropic elasticity of amorphous polymer chains stretched during extrusion. Printing speed is identified as the primary factor for tuning the curvature, defining a specific bistability window, whilst an inherent process asymmetry between layers necessitates differential speeds to achieve equilibrium. Furthermore, cyclic testing confirms that this process-induced bistability is transient, limited by viscoelastic stress relaxation upon repeated actuation. This work provides a comprehensive framework for programming bistability via FFF, establishing the physical boundaries for its application in cost-effective, customisable deployable structures where manufacturing simplicity is prioritised over long fatigue life.",
+    "keywords": [],
+    "inScope": true,
+    "thumbnail": "",
+    "thumbnailStatus": "pending",
+    "userThumbnail": "",
+    "extracted": {
+      "is4D": "yes",
+      "bistable": "yes",
+      "origami": "no",
+      "stimuli": [
+        "heat",
+        "pH"
+      ],
+      "activeMaterial": "PLA",
+      "passiveMaterial": "",
+      "fabrication": "FDM/FFF",
+      "shapeChangeTime": ""
+    }
+  }
+]
